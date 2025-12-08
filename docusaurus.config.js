@@ -4,7 +4,7 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AI/Spec-Driven Book: Physical AI & Humanoid Robotics',
+  title: 'Physical AI & Humanoid Robotics',
   tagline: 'Hands-on learning of Physical AI and humanoid robotics',
   favicon: 'img/favicon.ico',
 
@@ -58,7 +58,7 @@ const config = {
         title: 'AI Robotics Book',
         logo: {
           alt: 'AI Robotics Book Logo',
-          src: 'img/logo.svg',
+          src: 'img/book.png',
         },
         items: [
           {
@@ -68,7 +68,7 @@ const config = {
             label: 'Book',
           },
           {
-            href: 'https://github.com/your-username/ai-robotic-book',
+            href: 'https://github.com/SyedBabarMehmoodZaidi',
             label: 'GitHub',
             position: 'right',
           },
@@ -90,16 +90,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Youtube',
+                href: 'https://www.youtube.com/@BabarBamsi90',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/syed-babar-255b0221b/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/babar_zaidy/',
               },
             ],
           },
@@ -108,12 +108,12 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/your-username/ai-robotic-book',
+                href: 'https://github.com/SyedBabarMehmoodZaidi',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} AI/Spec-Driven Book Project. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics Book Project.`,
       },
       prism: {
         theme: require('prism-react-renderer').themes.github,
