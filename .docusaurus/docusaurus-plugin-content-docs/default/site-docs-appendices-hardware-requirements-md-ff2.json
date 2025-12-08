@@ -1,0 +1,27 @@
+{
+  "id": "appendices/hardware-requirements",
+  "title": "Hardware Requirements",
+  "description": "This page outlines the hardware requirements for implementing the exercises and projects in the AI/Spec-Driven Book on Physical AI & Humanoid Robotics.",
+  "source": "@site/docs/appendices/hardware-requirements.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/hardware-requirements",
+  "permalink": "/ai-robotic-book/docs/appendices/hardware-requirements",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/appendices/hardware-requirements.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Capstone Project: Integrated AI-Powered Humanoid Robot",
+    "permalink": "/ai-robotic-book/docs/capstone-project"
+  },
+  "next": {
+    "title": "Installation Guide",
+    "permalink": "/ai-robotic-book/docs/appendices/installation-guide"
+  }
+}

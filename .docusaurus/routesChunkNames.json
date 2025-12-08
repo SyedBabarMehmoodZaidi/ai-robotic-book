@@ -1,0 +1,200 @@
+{
+  "/ai-robotic-book/__docusaurus/debug-7cb": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---ai-robotic-book-docusaurus-debug-877-064"
+    }
+  },
+  "/ai-robotic-book/__docusaurus/debug/config-ef1": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---ai-robotic-book-docusaurus-debug-877-064"
+    }
+  },
+  "/ai-robotic-book/__docusaurus/debug/content-aae": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---ai-robotic-book-docusaurus-debug-877-064"
+    },
+    "allContent": "allContent---ai-robotic-book-docusaurus-debug-content-246-630"
+  },
+  "/ai-robotic-book/__docusaurus/debug/globalData-d19": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---ai-robotic-book-docusaurus-debug-877-064"
+    }
+  },
+  "/ai-robotic-book/__docusaurus/debug/metadata-359": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---ai-robotic-book-docusaurus-debug-877-064"
+    }
+  },
+  "/ai-robotic-book/__docusaurus/debug/registry-1bc": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---ai-robotic-book-docusaurus-debug-877-064"
+    }
+  },
+  "/ai-robotic-book/__docusaurus/debug/routes-0c8": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---ai-robotic-book-docusaurus-debug-877-064"
+    }
+  },
+  "/ai-robotic-book/markdown-page-6d4": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---ai-robotic-book-markdown-page-8-be-dc4"
+    },
+    "content": "content---ai-robotic-book-markdown-page-393-19b"
+  },
+  "/ai-robotic-book/docs-c6b": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---ai-robotic-book-docs-6-a-5-87a"
+    }
+  },
+  "/ai-robotic-book/docs-493": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---ai-robotic-book-docs-935-833"
+  },
+  "/ai-robotic-book/docs-2fb": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/ai-robotic-book/docs/appendices/hardware-requirements-724": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-appendices-hardware-requirementsff-2-422"
+  },
+  "/ai-robotic-book/docs/appendices/installation-guide-a2f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-appendices-installation-guide-925-f2b"
+  },
+  "/ai-robotic-book/docs/appendices/troubleshooting-363": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-appendices-troubleshootingbd-6-3f3"
+  },
+  "/ai-robotic-book/docs/capstone-project-b0c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-capstone-project-7-bd-bb5"
+  },
+  "/ai-robotic-book/docs/conclusion-b0b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-conclusion-85-b-d81"
+  },
+  "/ai-robotic-book/docs/glossary-974": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-glossarye-74-83b"
+  },
+  "/ai-robotic-book/docs/intro-427": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-intro-0-e-3-37d"
+  },
+  "/ai-robotic-book/docs/module-1-ros2/-3b3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-1-ros-2-4-dd-508"
+  },
+  "/ai-robotic-book/docs/module-1-ros2/architecture-8f6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-1-ros-2-architecture-495-c42"
+  },
+  "/ai-robotic-book/docs/module-1-ros2/exercises-02c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-1-ros-2-exercises-124-93f"
+  },
+  "/ai-robotic-book/docs/module-1-ros2/packages-management-908": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-1-ros-2-packages-managementa-3-c-ab5"
+  },
+  "/ai-robotic-book/docs/module-1-ros2/python-integration-b6c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-1-ros-2-python-integration-013-af1"
+  },
+  "/ai-robotic-book/docs/module-1-ros2/urdf-robots-8f4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-1-ros-2-urdf-robots-5-bc-427"
+  },
+  "/ai-robotic-book/docs/module-2-digital-twin/-c9c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-2-digital-twin-811-d20"
+  },
+  "/ai-robotic-book/docs/module-2-digital-twin/exercises-63c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-2-digital-twin-exercises-64-c-ece"
+  },
+  "/ai-robotic-book/docs/module-2-digital-twin/gazebo-setup-dfd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-2-digital-twin-gazebo-setup-728-21f"
+  },
+  "/ai-robotic-book/docs/module-2-digital-twin/sensor-simulation-7b2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-2-digital-twin-sensor-simulation-3-a-7-3ef"
+  },
+  "/ai-robotic-book/docs/module-2-digital-twin/unity-simulation-d40": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-2-digital-twin-unity-simulation-449-33b"
+  },
+  "/ai-robotic-book/docs/module-2-digital-twin/urdf-sdf-formats-f47": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-2-digital-twin-urdf-sdf-formats-117-58e"
+  },
+  "/ai-robotic-book/docs/module-3-ai-robot-brain/-5d1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-3-ai-robot-brain-8-c-6-02f"
+  },
+  "/ai-robotic-book/docs/module-3-ai-robot-brain/exercises-7ce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-3-ai-robot-brain-exercises-8-b-2-1fb"
+  },
+  "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-ros-vslam-5eb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-3-ai-robot-brain-isaac-ros-vslam-181-6e4"
+  },
+  "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-sim-setup-498": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-3-ai-robot-brain-isaac-sim-setupa-72-9bb"
+  },
+  "/ai-robotic-book/docs/module-3-ai-robot-brain/nav2-path-planning-ade": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-3-ai-robot-brain-nav-2-path-planningf-25-508"
+  },
+  "/ai-robotic-book/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion-79a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-3-ai-robot-brain-reinforcement-learning-locomotioncdd-7f8"
+  },
+  "/ai-robotic-book/docs/module-4-vla/-6c1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-4-vla-4-a-9-a5a"
+  },
+  "/ai-robotic-book/docs/module-4-vla/exercises-2c9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-4-vla-exerciseseb-5-9c2"
+  },
+  "/ai-robotic-book/docs/module-4-vla/language-guided-manipulation-26f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-4-vla-language-guided-manipulationb-3-d-f2c"
+  },
+  "/ai-robotic-book/docs/module-4-vla/multimodal-perception-03d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-4-vla-multimodal-perception-71-a-a25"
+  },
+  "/ai-robotic-book/docs/module-4-vla/vla-architecture-ac8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-4-vla-vla-architecture-751-d49"
+  },
+  "/ai-robotic-book/docs/module-4-vla/vla-system-integration-b19": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-module-4-vla-vla-system-integration-45-a-5ac"
+  },
+  "/ai-robotic-book/docs/references-515": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-robotic-book-docs-references-33-a-ae0"
+  },
+  "/ai-robotic-book/-729": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---ai-robotic-book-markdown-page-8-be-dc4"
+    },
+    "config": "config---ai-robotic-book-5-e-9-acc"
+  }
+}

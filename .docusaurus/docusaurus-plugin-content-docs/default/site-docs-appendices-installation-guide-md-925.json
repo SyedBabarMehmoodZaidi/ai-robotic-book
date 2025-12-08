@@ -1,0 +1,27 @@
+{
+  "id": "appendices/installation-guide",
+  "title": "Installation Guide",
+  "description": "This guide provides step-by-step instructions for installing the software tools required for the AI/Spec-Driven Book on Physical AI & Humanoid Robotics.",
+  "source": "@site/docs/appendices/installation-guide.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/installation-guide",
+  "permalink": "/ai-robotic-book/docs/appendices/installation-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/appendices/installation-guide.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hardware Requirements",
+    "permalink": "/ai-robotic-book/docs/appendices/hardware-requirements"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/ai-robotic-book/docs/appendices/troubleshooting"
+  }
+}

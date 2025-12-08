@@ -1,0 +1,27 @@
+{
+  "id": "module-4-vla/vla-system-integration",
+  "title": "VLA System Integration: End-to-End Implementation",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module-4-vla/vla-system-integration.md",
+  "sourceDirName": "module-4-vla",
+  "slug": "/module-4-vla/vla-system-integration",
+  "permalink": "/ai-robotic-book/docs/module-4-vla/vla-system-integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-4-vla/vla-system-integration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Language-Guided Manipulation: From Commands to Actions",
+    "permalink": "/ai-robotic-book/docs/module-4-vla/language-guided-manipulation"
+  },
+  "next": {
+    "title": "Module 4 Exercises: Vision-Language-Action Integration",
+    "permalink": "/ai-robotic-book/docs/module-4-vla/exercises"
+  }
+}

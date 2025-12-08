@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/sensor-simulation",
+  "title": "Sensor Simulation: LiDAR, Depth Cameras, and IMUs",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module-2-digital-twin/sensor-simulation.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/sensor-simulation",
+  "permalink": "/ai-robotic-book/docs/module-2-digital-twin/sensor-simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-2-digital-twin/sensor-simulation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "URDF/SDF Formats: Robot Description and Simulation Formats",
+    "permalink": "/ai-robotic-book/docs/module-2-digital-twin/urdf-sdf-formats"
+  },
+  "next": {
+    "title": "Module 2 Exercises: Digital Twin Implementation",
+    "permalink": "/ai-robotic-book/docs/module-2-digital-twin/exercises"
+  }
+}

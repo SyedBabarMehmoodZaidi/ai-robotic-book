@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/index",
+  "title": "Module 2: The Digital Twin (Gazebo & Unity)",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module-2-digital-twin/index.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/",
+  "permalink": "/ai-robotic-book/docs/module-2-digital-twin/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-2-digital-twin/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 1 Exercises: ROS 2 Fundamentals",
+    "permalink": "/ai-robotic-book/docs/module-1-ros2/exercises"
+  },
+  "next": {
+    "title": "Gazebo Setup: Physics Simulation Environment",
+    "permalink": "/ai-robotic-book/docs/module-2-digital-twin/gazebo-setup"
+  }
+}

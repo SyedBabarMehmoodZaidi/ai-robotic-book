@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/urdf-sdf-formats",
+  "title": "URDF/SDF Formats: Robot Description and Simulation Formats",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module-2-digital-twin/urdf-sdf-formats.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/urdf-sdf-formats",
+  "permalink": "/ai-robotic-book/docs/module-2-digital-twin/urdf-sdf-formats",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-2-digital-twin/urdf-sdf-formats.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Unity Simulation: High-Fidelity Visualization and Human-Robot Interaction",
+    "permalink": "/ai-robotic-book/docs/module-2-digital-twin/unity-simulation"
+  },
+  "next": {
+    "title": "Sensor Simulation: LiDAR, Depth Cameras, and IMUs",
+    "permalink": "/ai-robotic-book/docs/module-2-digital-twin/sensor-simulation"
+  }
+}

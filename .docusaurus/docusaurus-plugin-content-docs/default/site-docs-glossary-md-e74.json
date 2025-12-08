@@ -1,0 +1,24 @@
+{
+  "id": "glossary",
+  "title": "Glossary",
+  "description": "This glossary provides definitions for key terms and concepts used throughout the AI/Spec-Driven Book on Physical AI & Humanoid Robotics.",
+  "source": "@site/docs/glossary.md",
+  "sourceDirName": ".",
+  "slug": "/glossary",
+  "permalink": "/ai-robotic-book/docs/glossary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/glossary.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "References",
+    "permalink": "/ai-robotic-book/docs/references"
+  },
+  "next": {
+    "title": "Conclusion and Future Directions",
+    "permalink": "/ai-robotic-book/docs/conclusion"
+  }
+}

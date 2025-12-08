@@ -1,0 +1,27 @@
+{
+  "id": "module-3-ai-robot-brain/exercises",
+  "title": "Module 3 Exercises: AI-Robot Brain Integration",
+  "description": "Exercise Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/exercises.md",
+  "sourceDirName": "module-3-ai-robot-brain",
+  "slug": "/module-3-ai-robot-brain/exercises",
+  "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/exercises",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-3-ai-robot-brain/exercises.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reinforcement Learning for Locomotion: AI-Driven Movement Control",
+    "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion"
+  },
+  "next": {
+    "title": "Module 4: Vision-Language-Action (VLA)",
+    "permalink": "/ai-robotic-book/docs/module-4-vla/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "references",
+  "title": "References",
+  "description": "This page contains the peer-reviewed sources and references used throughout the AI/Spec-Driven Book on Physical AI & Humanoid Robotics.",
+  "source": "@site/docs/references.md",
+  "sourceDirName": ".",
+  "slug": "/references",
+  "permalink": "/ai-robotic-book/docs/references",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/references.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Troubleshooting",
+    "permalink": "/ai-robotic-book/docs/appendices/troubleshooting"
+  },
+  "next": {
+    "title": "Glossary",
+    "permalink": "/ai-robotic-book/docs/glossary"
+  }
+}

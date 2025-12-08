@@ -1,0 +1,27 @@
+{
+  "id": "module-4-vla/language-guided-manipulation",
+  "title": "Language-Guided Manipulation: From Commands to Actions",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module-4-vla/language-guided-manipulation.md",
+  "sourceDirName": "module-4-vla",
+  "slug": "/module-4-vla/language-guided-manipulation",
+  "permalink": "/ai-robotic-book/docs/module-4-vla/language-guided-manipulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-4-vla/language-guided-manipulation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Multimodal Perception: Vision-Language Integration",
+    "permalink": "/ai-robotic-book/docs/module-4-vla/multimodal-perception"
+  },
+  "next": {
+    "title": "VLA System Integration: End-to-End Implementation",
+    "permalink": "/ai-robotic-book/docs/module-4-vla/vla-system-integration"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/gazebo-setup",
+  "title": "Gazebo Setup: Physics Simulation Environment",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module-2-digital-twin/gazebo-setup.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/gazebo-setup",
+  "permalink": "/ai-robotic-book/docs/module-2-digital-twin/gazebo-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-2-digital-twin/gazebo-setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 2: The Digital Twin (Gazebo & Unity)",
+    "permalink": "/ai-robotic-book/docs/module-2-digital-twin/"
+  },
+  "next": {
+    "title": "Unity Simulation: High-Fidelity Visualization and Human-Robot Interaction",
+    "permalink": "/ai-robotic-book/docs/module-2-digital-twin/unity-simulation"
+  }
+}

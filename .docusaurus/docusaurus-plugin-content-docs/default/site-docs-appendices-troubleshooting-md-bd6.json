@@ -1,0 +1,27 @@
+{
+  "id": "appendices/troubleshooting",
+  "title": "Troubleshooting",
+  "description": "This guide provides solutions to common issues encountered while working through the AI/Spec-Driven Book on Physical AI & Humanoid Robotics.",
+  "source": "@site/docs/appendices/troubleshooting.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/troubleshooting",
+  "permalink": "/ai-robotic-book/docs/appendices/troubleshooting",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/appendices/troubleshooting.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation Guide",
+    "permalink": "/ai-robotic-book/docs/appendices/installation-guide"
+  },
+  "next": {
+    "title": "References",
+    "permalink": "/ai-robotic-book/docs/references"
+  }
+}

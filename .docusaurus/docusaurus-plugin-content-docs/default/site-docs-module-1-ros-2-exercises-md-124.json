@@ -1,0 +1,27 @@
+{
+  "id": "module-1-ros2/exercises",
+  "title": "Module 1 Exercises: ROS 2 Fundamentals",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module-1-ros2/exercises.md",
+  "sourceDirName": "module-1-ros2",
+  "slug": "/module-1-ros2/exercises",
+  "permalink": "/ai-robotic-book/docs/module-1-ros2/exercises",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-1-ros2/exercises.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2 Packages, Launch Files, and Parameter Management",
+    "permalink": "/ai-robotic-book/docs/module-1-ros2/packages-management"
+  },
+  "next": {
+    "title": "Module 2: The Digital Twin (Gazebo & Unity)",
+    "permalink": "/ai-robotic-book/docs/module-2-digital-twin/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "module-3-ai-robot-brain/index",
+  "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac)",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module-3-ai-robot-brain/index.md",
+  "sourceDirName": "module-3-ai-robot-brain",
+  "slug": "/module-3-ai-robot-brain/",
+  "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-3-ai-robot-brain/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 2 Exercises: Digital Twin Implementation",
+    "permalink": "/ai-robotic-book/docs/module-2-digital-twin/exercises"
+  },
+  "next": {
+    "title": "NVIDIA Isaac Sim Setup: AI-Powered Simulation Environment",
+    "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-sim-setup"
+  }
+}
