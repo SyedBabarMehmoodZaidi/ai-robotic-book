@@ -1,0 +1,71 @@
+/**
+ * Copyright (c) 2017-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * Custom CSS for the AI/Spec-Driven Book: Physical AI & Humanoid Robotics
+ */
+
+:root {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom styles for robotics education content */
+.robotics-code-block {
+  border-left: 4px solid var(--ifm-color-primary);
+  margin: 1rem 0;
+}
+
+.robotics-tip {
+  background-color: #e8f4fc;
+  border-left: 4px solid #25c2a0;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+html[data-theme='dark'] .robotics-tip {
+  background-color: #0d2b3c;
+}
+
+.robotics-warning {
+  background-color: #fff3cd;
+  border-left: 4px solid #ffc107;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+html[data-theme='dark'] .robotics-warning {
+  background-color: #3c311f;
+}
+
+.robotics-caution {
+  background-color: #f8d7da;
+  border-left: 4px solid #dc3545;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+html[data-theme='dark'] .robotics-caution {
+  background-color: #3c1c23;
+}
