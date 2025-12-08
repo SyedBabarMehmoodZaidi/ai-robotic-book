@@ -41,13 +41,7 @@ const config = {
           editUrl:
             'https://github.com/your-username/ai-robotic-book/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/your-username/ai-robotic-book/tree/main/',
-        },
+       
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -73,7 +67,6 @@ const config = {
             position: 'left',
             label: 'Book',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/your-username/ai-robotic-book',
             label: 'GitHub',
@@ -113,10 +106,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/your-username/ai-robotic-book',

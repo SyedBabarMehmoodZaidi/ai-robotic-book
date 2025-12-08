@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/ai-robotic-book/__docusaurus/debug',
-    component: ComponentCreator('/ai-robotic-book/__docusaurus/debug', '7cb'),
-    exact: true
-  },
-  {
-    path: '/ai-robotic-book/__docusaurus/debug/config',
-    component: ComponentCreator('/ai-robotic-book/__docusaurus/debug/config', 'ef1'),
-    exact: true
-  },
-  {
-    path: '/ai-robotic-book/__docusaurus/debug/content',
-    component: ComponentCreator('/ai-robotic-book/__docusaurus/debug/content', 'aae'),
-    exact: true
-  },
-  {
-    path: '/ai-robotic-book/__docusaurus/debug/globalData',
-    component: ComponentCreator('/ai-robotic-book/__docusaurus/debug/globalData', 'd19'),
-    exact: true
-  },
-  {
-    path: '/ai-robotic-book/__docusaurus/debug/metadata',
-    component: ComponentCreator('/ai-robotic-book/__docusaurus/debug/metadata', '359'),
-    exact: true
-  },
-  {
-    path: '/ai-robotic-book/__docusaurus/debug/registry',
-    component: ComponentCreator('/ai-robotic-book/__docusaurus/debug/registry', '1bc'),
-    exact: true
-  },
-  {
-    path: '/ai-robotic-book/__docusaurus/debug/routes',
-    component: ComponentCreator('/ai-robotic-book/__docusaurus/debug/routes', '0c8'),
-    exact: true
-  },
-  {
     path: '/ai-robotic-book/markdown-page',
     component: ComponentCreator('/ai-robotic-book/markdown-page', '6d4'),
     exact: true

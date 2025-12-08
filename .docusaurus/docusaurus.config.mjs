@@ -29,10 +29,6 @@ export default {
           "sidebarPath": "./sidebars.js",
           "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/"
         },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/"
-        },
         "theme": {
           "customCss": "./src/css/custom.css"
         }
@@ -53,11 +49,6 @@ export default {
           "sidebarId": "tutorialSidebar",
           "position": "left",
           "label": "Book"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
         },
         {
           "href": "https://github.com/your-username/ai-robotic-book",
@@ -99,10 +90,6 @@ export default {
         {
           "title": "More",
           "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
             {
               "label": "GitHub",
               "href": "https://github.com/your-username/ai-robotic-book"
