@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-module-3-ai-robot-brain/exercises" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.1.0">
+<title data-rh="true">Module 3 Exercises: AI-Robot Brain Integration | AI/Spec-Driven Book: Physical AI &amp; Humanoid Robotics</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://your-username.github.io/ai-robotic-book/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://your-username.github.io/ai-robotic-book/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://your-username.github.io/ai-robotic-book/docs/module-3-ai-robot-brain/exercises"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Module 3 Exercises: AI-Robot Brain Integration | AI/Spec-Driven Book: Physical AI &amp; Humanoid Robotics"><meta data-rh="true" name="description" content="Exercise Overview"><meta data-rh="true" property="og:description" content="Exercise Overview"><link data-rh="true" rel="icon" href="/ai-robotic-book/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://your-username.github.io/ai-robotic-book/docs/module-3-ai-robot-brain/exercises"><link data-rh="true" rel="alternate" href="https://your-username.github.io/ai-robotic-book/docs/module-3-ai-robot-brain/exercises" hreflang="en"><link data-rh="true" rel="alternate" href="https://your-username.github.io/ai-robotic-book/docs/module-3-ai-robot-brain/exercises" hreflang="x-default"><link rel="stylesheet" href="/ai-robotic-book/assets/css/styles.ea15741b.css">
+<script src="/ai-robotic-book/assets/js/runtime~main.e5f34529.js" defer="defer"></script>
+<script src="/ai-robotic-book/assets/js/main.40aacef7.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/ai-robotic-book/"><div class="navbar__logo"><img src="/ai-robotic-book/img/logo.svg" alt="AI Robotics Book Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/ai-robotic-book/img/logo.svg" alt="AI Robotics Book Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">AI Robotics Book</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/ai-robotic-book/docs/intro">Book</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/your-username/ai-robotic-book" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ai-robotic-book/docs/intro">Introduction to Physical AI &amp; Humanoid Robotics</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/ai-robotic-book/docs/module-1-ros2/">Module 1: The Robotic Nervous System (ROS 2)</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/ai-robotic-book/docs/module-2-digital-twin/">Module 2: The Digital Twin (Gazebo &amp; Unity)</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" aria-expanded="true" href="/ai-robotic-book/docs/module-3-ai-robot-brain/">Module 3: The AI-Robot Brain (NVIDIA Isaac)</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ai-robotic-book/docs/module-3-ai-robot-brain/">Module 3: The AI-Robot Brain (NVIDIA Isaac)</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-sim-setup">NVIDIA Isaac Sim Setup: AI-Powered Simulation Environment</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-ros-vslam">Isaac ROS Integration: GPU-Accelerated Perception and VSLAM</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ai-robotic-book/docs/module-3-ai-robot-brain/nav2-path-planning">Nav2 Path Planning: Advanced Navigation and Autonomous Movement</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ai-robotic-book/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion">Reinforcement Learning for Locomotion: AI-Driven Movement Control</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/ai-robotic-book/docs/module-3-ai-robot-brain/exercises">Module 3 Exercises: AI-Robot Brain Integration</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/ai-robotic-book/docs/module-4-vla/">Module 4: Vision-Language-Action (VLA)</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ai-robotic-book/docs/capstone-project">Capstone Project: Integrated AI-Powered Humanoid Robot</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/ai-robotic-book/docs/appendices/hardware-requirements">Appendices</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ai-robotic-book/docs/references">References</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ai-robotic-book/docs/glossary">Glossary</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ai-robotic-book/docs/conclusion">Conclusion and Future Directions</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/ai-robotic-book/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Module 3: The AI-Robot Brain (NVIDIA Isaac)</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Module 3 Exercises: AI-Robot Brain Integration</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><h1>Module 3 Exercises: AI-Robot Brain Integration</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-overview">Exercise Overview<a href="#exercise-overview" class="hash-link" aria-label="Direct link to Exercise Overview" title="Direct link to Exercise Overview">​</a></h2>
+<p>This exercise section provides hands-on activities that integrate all concepts from Module 3: The AI-Robot Brain. These exercises will help you apply Isaac Sim, Isaac ROS, Nav2, and reinforcement learning concepts in practical scenarios that mirror real-world robotics challenges.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-1-isaac-sim-environment-creation">Exercise 1: Isaac Sim Environment Creation<a href="#exercise-1-isaac-sim-environment-creation" class="hash-link" aria-label="Direct link to Exercise 1: Isaac Sim Environment Creation" title="Direct link to Exercise 1: Isaac Sim Environment Creation">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="objective">Objective<a href="#objective" class="hash-link" aria-label="Direct link to Objective" title="Direct link to Objective">​</a></h3>
+<p>Create a complex simulation environment in Isaac Sim with multiple robots, obstacles, and dynamic elements.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tasks">Tasks<a href="#tasks" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks">​</a></h3>
+<ol>
+<li>Launch Isaac Sim and create a new scene</li>
+<li>Add a ground plane and lighting system</li>
+<li>Import a humanoid robot model (or use sample assets)</li>
+<li>Create multiple static obstacles (boxes, cylinders)</li>
+<li>Add dynamic elements (moving platforms, rotating objects)</li>
+<li>Configure physics properties for realistic interactions</li>
+<li>Set up camera systems for monitoring the environment</li>
+<li>Save the scene and verify it loads correctly</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="deliverables">Deliverables<a href="#deliverables" class="hash-link" aria-label="Direct link to Deliverables" title="Direct link to Deliverables">​</a></h3>
+<ul>
+<li>Screenshot of the completed environment</li>
+<li>USD file of the scene</li>
+<li>Brief report on physics configuration choices</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="time-estimate">Time Estimate<a href="#time-estimate" class="hash-link" aria-label="Direct link to Time Estimate" title="Direct link to Time Estimate">​</a></h3>
+<p>2-3 hours</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="learning-outcomes">Learning Outcomes<a href="#learning-outcomes" class="hash-link" aria-label="Direct link to Learning Outcomes" title="Direct link to Learning Outcomes">​</a></h3>
+<ul>
+<li>Proficiency with Isaac Sim interface</li>
+<li>Understanding of USD scene composition</li>
+<li>Physics configuration for realistic simulation</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-2-isaac-ros-perception-pipeline">Exercise 2: Isaac ROS Perception Pipeline<a href="#exercise-2-isaac-ros-perception-pipeline" class="hash-link" aria-label="Direct link to Exercise 2: Isaac ROS Perception Pipeline" title="Direct link to Exercise 2: Isaac ROS Perception Pipeline">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="objective-1">Objective<a href="#objective-1" class="hash-link" aria-label="Direct link to Objective" title="Direct link to Objective">​</a></h3>
+<p>Implement a complete perception pipeline using Isaac ROS packages that processes sensor data and enables environmental understanding.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tasks-1">Tasks<a href="#tasks-1" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks">​</a></h3>
+<ol>
+<li>Set up Isaac Sim with a robot equipped with RGB camera and LiDAR</li>
+<li>Configure Isaac ROS bridge for sensor data transfer</li>
+<li>Implement Isaac ROS Visual SLAM for pose estimation</li>
+<li>Create a sensor fusion node that combines camera and LiDAR data</li>
+<li>Validate the perception system with known objects in the scene</li>
+<li>Test the system&#x27;s accuracy and processing speed</li>
+<li>Visualize results in RViz2</li>
+<li>Document the perception pipeline architecture</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="required-components">Required Components<a href="#required-components" class="hash-link" aria-label="Direct link to Required Components" title="Direct link to Required Components">​</a></h3>
+<ul>
+<li>Isaac ROS Visual SLAM node</li>
+<li>Isaac ROS Stereo DNN node</li>
+<li>Custom sensor fusion node</li>
+<li>RViz2 visualization</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="deliverables-1">Deliverables<a href="#deliverables-1" class="hash-link" aria-label="Direct link to Deliverables" title="Direct link to Deliverables">​</a></h3>
+<ul>
+<li>ROS 2 launch file for the complete pipeline</li>
+<li>Performance metrics (processing speed, accuracy)</li>
+<li>Screenshots of RViz2 with visualization</li>
+<li>Code documentation</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="time-estimate-1">Time Estimate<a href="#time-estimate-1" class="hash-link" aria-label="Direct link to Time Estimate" title="Direct link to Time Estimate">​</a></h3>
+<p>4-5 hours</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="learning-outcomes-1">Learning Outcomes<a href="#learning-outcomes-1" class="hash-link" aria-label="Direct link to Learning Outcomes" title="Direct link to Learning Outcomes">​</a></h3>
+<ul>
+<li>Integration of Isaac ROS packages</li>
+<li>Sensor fusion techniques</li>
+<li>Performance optimization for real-time processing</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-3-nav2-autonomous-navigation">Exercise 3: Nav2 Autonomous Navigation<a href="#exercise-3-nav2-autonomous-navigation" class="hash-link" aria-label="Direct link to Exercise 3: Nav2 Autonomous Navigation" title="Direct link to Exercise 3: Nav2 Autonomous Navigation">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="objective-2">Objective<a href="#objective-2" class="hash-link" aria-label="Direct link to Objective" title="Direct link to Objective">​</a></h3>
+<p>Configure and test Nav2 for autonomous navigation in the Isaac Sim environment created in Exercise 1.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tasks-2">Tasks<a href="#tasks-2" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks">​</a></h3>
+<ol>
+<li>Create a map of your Isaac Sim environment using SLAM</li>
+<li>Configure Nav2 parameters for your robot&#x27;s specifications</li>
+<li>Set up costmaps with appropriate inflation and obstacle detection</li>
+<li>Test global and local path planning algorithms</li>
+<li>Implement navigation behaviors for obstacle avoidance</li>
+<li>Test navigation in various scenarios (narrow passages, dynamic obstacles)</li>
+<li>Evaluate navigation performance metrics</li>
+<li>Optimize parameters for improved performance</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="configuration-requirements">Configuration Requirements<a href="#configuration-requirements" class="hash-link" aria-label="Direct link to Configuration Requirements" title="Direct link to Configuration Requirements">​</a></h3>
+<ul>
+<li>Global costmap with static and obstacle layers</li>
+<li>Local costmap with voxel and inflation layers</li>
+<li>DWA or TEB local planner</li>
+<li>Appropriate safety margins and inflation radii</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="deliverables-2">Deliverables<a href="#deliverables-2" class="hash-link" aria-label="Direct link to Deliverables" title="Direct link to Deliverables">​</a></h3>
+<ul>
+<li>Nav2 configuration files</li>
+<li>Navigation performance report</li>
+<li>Path planning visualizations</li>
+<li>Parameter optimization documentation</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="time-estimate-2">Time Estimate<a href="#time-estimate-2" class="hash-link" aria-label="Direct link to Time Estimate" title="Direct link to Time Estimate">​</a></h3>
+<p>5-6 hours</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="learning-outcomes-2">Learning Outcomes<a href="#learning-outcomes-2" class="hash-link" aria-label="Direct link to Learning Outcomes" title="Direct link to Learning Outcomes">​</a></h3>
+<ul>
+<li>Nav2 configuration and tuning</li>
+<li>Path planning algorithm selection</li>
+<li>Costmap parameter optimization</li>
+<li>Navigation performance evaluation</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-4-reinforcement-learning-locomotion">Exercise 4: Reinforcement Learning Locomotion<a href="#exercise-4-reinforcement-learning-locomotion" class="hash-link" aria-label="Direct link to Exercise 4: Reinforcement Learning Locomotion" title="Direct link to Exercise 4: Reinforcement Learning Locomotion">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="objective-3">Objective<a href="#objective-3" class="hash-link" aria-label="Direct link to Objective" title="Direct link to Objective">​</a></h3>
+<p>Train a bipedal robot using reinforcement learning to achieve stable locomotion in Isaac Sim.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tasks-3">Tasks<a href="#tasks-3" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks">​</a></h3>
+<ol>
+<li>Set up Isaac Gym environment for bipedal locomotion</li>
+<li>Define state, action, and reward spaces for walking</li>
+<li>Implement PPO algorithm for locomotion training</li>
+<li>Design curriculum learning progression</li>
+<li>Train the policy with domain randomization</li>
+<li>Evaluate gait quality and stability metrics</li>
+<li>Analyze learned locomotion patterns</li>
+<li>Test the policy on different terrains</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="implementation-requirements">Implementation Requirements<a href="#implementation-requirements" class="hash-link" aria-label="Direct link to Implementation Requirements" title="Direct link to Implementation Requirements">​</a></h3>
+<ul>
+<li>State space: joint positions, velocities, IMU readings</li>
+<li>Action space: joint torques or positions</li>
+<li>Reward function: forward velocity, energy efficiency, balance</li>
+<li>Curriculum: flat ground → sloped → rough terrain</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="deliverables-3">Deliverables<a href="#deliverables-3" class="hash-link" aria-label="Direct link to Deliverables" title="Direct link to Deliverables">​</a></h3>
+<ul>
+<li>Trained policy model</li>
+<li>Training curves and performance metrics</li>
+<li>Gait analysis report</li>
+<li>Video of trained locomotion</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="time-estimate-3">Time Estimate<a href="#time-estimate-3" class="hash-link" aria-label="Direct link to Time Estimate" title="Direct link to Time Estimate">​</a></h3>
+<p>6-8 hours (training time may vary)</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="learning-outcomes-3">Learning Outcomes<a href="#learning-outcomes-3" class="hash-link" aria-label="Direct link to Learning Outcomes" title="Direct link to Learning Outcomes">​</a></h3>
+<ul>
+<li>Reinforcement learning implementation</li>
+<li>Reward function design</li>
+<li>Curriculum learning strategies</li>
+<li>Locomotion performance evaluation</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-5-ai-robot-brain-integration-challenge">Exercise 5: AI-Robot Brain Integration Challenge<a href="#exercise-5-ai-robot-brain-integration-challenge" class="hash-link" aria-label="Direct link to Exercise 5: AI-Robot Brain Integration Challenge" title="Direct link to Exercise 5: AI-Robot Brain Integration Challenge">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="objective-4">Objective<a href="#objective-4" class="hash-link" aria-label="Direct link to Objective" title="Direct link to Objective">​</a></h3>
+<p>Integrate all components learned in Module 3 to create a complete AI-powered robot system that can perceive, navigate, and locomote autonomously.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tasks-4">Tasks<a href="#tasks-4" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks">​</a></h3>
+<ol>
+<li>Integrate Isaac Sim environment with perception pipeline</li>
+<li>Connect perception system to Nav2 navigation</li>
+<li>Implement high-level task planning using behavior trees</li>
+<li>Add reinforcement learning locomotion as primary movement mode</li>
+<li>Create scenario: Robot must navigate to multiple waypoints while avoiding dynamic obstacles</li>
+<li>Test system robustness under various conditions</li>
+<li>Evaluate overall system performance</li>
+<li>Document system architecture and lessons learned</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="integration-requirements">Integration Requirements<a href="#integration-requirements" class="hash-link" aria-label="Direct link to Integration Requirements" title="Direct link to Integration Requirements">​</a></h3>
+<ul>
+<li>Isaac Sim simulation environment</li>
+<li>Isaac ROS perception pipeline</li>
+<li>Nav2 navigation stack</li>
+<li>RL locomotion controller</li>
+<li>Behavior tree for task management</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="scenario-specifications">Scenario Specifications<a href="#scenario-specifications" class="hash-link" aria-label="Direct link to Scenario Specifications" title="Direct link to Scenario Specifications">​</a></h3>
+<ul>
+<li>Start position to Goal A (5m away)</li>
+<li>Goal A to Goal B (7m away, with dynamic obstacles)</li>
+<li>Goal B back to Start (with different path)</li>
+<li>Total distance: ~17m of navigation</li>
+<li>Dynamic obstacles moving at 0.5m/s</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="performance-metrics">Performance Metrics<a href="#performance-metrics" class="hash-link" aria-label="Direct link to Performance Metrics" title="Direct link to Performance Metrics">​</a></h3>
+<ul>
+<li>Navigation success rate (&gt;80%)</li>
+<li>Average time to complete course</li>
+<li>Path efficiency (actual distance vs optimal)</li>
+<li>Obstacle avoidance success</li>
+<li>Locomotion stability metrics</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="deliverables-4">Deliverables<a href="#deliverables-4" class="hash-link" aria-label="Direct link to Deliverables" title="Direct link to Deliverables">​</a></h3>
+<ul>
+<li>Complete integrated system</li>
+<li>Performance evaluation report</li>
+<li>System architecture diagram</li>
+<li>Video demonstration of complete task</li>
+<li>Lessons learned document</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="time-estimate-4">Time Estimate<a href="#time-estimate-4" class="hash-link" aria-label="Direct link to Time Estimate" title="Direct link to Time Estimate">​</a></h3>
+<p>8-10 hours</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="learning-outcomes-4">Learning Outcomes<a href="#learning-outcomes-4" class="hash-link" aria-label="Direct link to Learning Outcomes" title="Direct link to Learning Outcomes">​</a></h3>
+<ul>
+<li>System integration skills</li>
+<li>Multi-component coordination</li>
+<li>Performance evaluation</li>
+<li>Real-world robotics system design</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-6-perception-enhanced-navigation">Exercise 6: Perception-Enhanced Navigation<a href="#exercise-6-perception-enhanced-navigation" class="hash-link" aria-label="Direct link to Exercise 6: Perception-Enhanced Navigation" title="Direct link to Exercise 6: Perception-Enhanced Navigation">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="objective-5">Objective<a href="#objective-5" class="hash-link" aria-label="Direct link to Objective" title="Direct link to Objective">​</a></h3>
+<p>Enhance the navigation system with perception data to enable more intelligent path planning and obstacle avoidance.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tasks-5">Tasks<a href="#tasks-5" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks">​</a></h3>
+<ol>
+<li>Integrate perception pipeline with Nav2 costmaps</li>
+<li>Implement dynamic obstacle detection and tracking</li>
+<li>Create semantic mapping using perception data</li>
+<li>Implement object-specific navigation behaviors</li>
+<li>Test navigation around identified objects</li>
+<li>Evaluate semantic navigation performance</li>
+<li>Compare with traditional navigation approaches</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="advanced-features">Advanced Features<a href="#advanced-features" class="hash-link" aria-label="Direct link to Advanced Features" title="Direct link to Advanced Features">​</a></h3>
+<ul>
+<li>Object detection and classification</li>
+<li>Semantic costmap generation</li>
+<li>Object-specific path planning</li>
+<li>Human-aware navigation</li>
+<li>Predictive obstacle avoidance</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="deliverables-5">Deliverables<a href="#deliverables-5" class="hash-link" aria-label="Direct link to Deliverables" title="Direct link to Deliverables">​</a></h3>
+<ul>
+<li>Enhanced navigation system</li>
+<li>Semantic mapping results</li>
+<li>Performance comparison report</li>
+<li>Object detection accuracy metrics</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="time-estimate-5">Time Estimate<a href="#time-estimate-5" class="hash-link" aria-label="Direct link to Time Estimate" title="Direct link to Time Estimate">​</a></h3>
+<p>5-6 hours</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="learning-outcomes-5">Learning Outcomes<a href="#learning-outcomes-5" class="hash-link" aria-label="Direct link to Learning Outcomes" title="Direct link to Learning Outcomes">​</a></h3>
+<ul>
+<li>Semantic navigation techniques</li>
+<li>Multi-sensor fusion</li>
+<li>Advanced path planning</li>
+<li>Object-aware navigation</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="assessment-criteria">Assessment Criteria<a href="#assessment-criteria" class="hash-link" aria-label="Direct link to Assessment Criteria" title="Direct link to Assessment Criteria">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="technical-proficiency-40">Technical Proficiency (40%)<a href="#technical-proficiency-40" class="hash-link" aria-label="Direct link to Technical Proficiency (40%)" title="Direct link to Technical Proficiency (40%)">​</a></h3>
+<ul>
+<li>Correct implementation of all components</li>
+<li>Proper configuration and parameter tuning</li>
+<li>Code quality and documentation</li>
+<li>System integration effectiveness</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="performance-30">Performance (30%)<a href="#performance-30" class="hash-link" aria-label="Direct link to Performance (30%)" title="Direct link to Performance (30%)">​</a></h3>
+<ul>
+<li>Quantitative metrics achievement</li>
+<li>System robustness and reliability</li>
+<li>Efficiency of algorithms</li>
+<li>Real-time performance</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="problem-solving-20">Problem-Solving (20%)<a href="#problem-solving-20" class="hash-link" aria-label="Direct link to Problem-Solving (20%)" title="Direct link to Problem-Solving (20%)">​</a></h3>
+<ul>
+<li>Creative solutions to challenges</li>
+<li>Troubleshooting and debugging skills</li>
+<li>Optimization strategies</li>
+<li>Adaptation to changing requirements</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="documentation-10">Documentation (10%)<a href="#documentation-10" class="hash-link" aria-label="Direct link to Documentation (10%)" title="Direct link to Documentation (10%)">​</a></h3>
+<ul>
+<li>Clear, comprehensive documentation</li>
+<li>Proper code comments and explanations</li>
+<li>Performance analysis and evaluation</li>
+<li>Lessons learned and future improvements</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="prerequisites-for-exercises">Prerequisites for Exercises<a href="#prerequisites-for-exercises" class="hash-link" aria-label="Direct link to Prerequisites for Exercises" title="Direct link to Prerequisites for Exercises">​</a></h2>
+<p>Before starting these exercises, ensure you have:</p>
+<ul>
+<li>Completed all Module 3 sections</li>
+<li>Isaac Sim properly installed and configured</li>
+<li>Isaac ROS packages installed</li>
+<li>Nav2 installed and working</li>
+<li>Basic understanding of reinforcement learning concepts</li>
+<li>ROS 2 workspace properly set up</li>
+<li>Appropriate hardware (NVIDIA GPU recommended)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="resources-and-support">Resources and Support<a href="#resources-and-support" class="hash-link" aria-label="Direct link to Resources and Support" title="Direct link to Resources and Support">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="helpful-commands">Helpful Commands<a href="#helpful-commands" class="hash-link" aria-label="Direct link to Helpful Commands" title="Direct link to Helpful Commands">​</a></h3>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Check Isaac ROS installation</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">ros2 pkg list | grep isaac</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Verify Nav2 installation</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">ros2 pkg list | grep nav2</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Check Isaac Sim availability</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">python -c &quot;import omni; print(&#x27;Isaac Sim available&#x27;)&quot;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="troubleshooting-tips">Troubleshooting Tips<a href="#troubleshooting-tips" class="hash-link" aria-label="Direct link to Troubleshooting Tips" title="Direct link to Troubleshooting Tips">​</a></h3>
+<ol>
+<li>Start with simple configurations and gradually increase complexity</li>
+<li>Use Isaac Sim&#x27;s built-in examples as reference implementations</li>
+<li>Monitor GPU memory usage during training</li>
+<li>Validate each component individually before integration</li>
+<li>Use RViz2 extensively for visualization and debugging</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="expected-challenges">Expected Challenges<a href="#expected-challenges" class="hash-link" aria-label="Direct link to Expected Challenges" title="Direct link to Expected Challenges">​</a></h3>
+<ul>
+<li>GPU memory limitations during RL training</li>
+<li>Coordinate frame alignment between systems</li>
+<li>Timing synchronization between components</li>
+<li>Parameter tuning for optimal performance</li>
+<li>Simulation-to-reality transfer issues</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="extension-activities">Extension Activities<a href="#extension-activities" class="hash-link" aria-label="Direct link to Extension Activities" title="Direct link to Extension Activities">​</a></h2>
+<p>For advanced students, consider these additional challenges:</p>
+<ol>
+<li>Implement multi-robot coordination with Isaac Sim</li>
+<li>Add reinforcement learning for manipulation tasks</li>
+<li>Create custom Isaac ROS nodes for specific perception tasks</li>
+<li>Implement learning-based navigation in dynamic environments</li>
+<li>Develop real robot deployment strategies</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="summary">Summary<a href="#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary">​</a></h2>
+<p>These exercises provide comprehensive hands-on experience with the AI-Robot Brain concepts covered in Module 3. By completing these activities, you will have developed practical skills in Isaac Sim, Isaac ROS, Nav2 navigation, and reinforcement learning for robotics. The integration challenge will demonstrate your ability to combine all these technologies into a cohesive, intelligent robotic system.</p>
+<p>Successfully completing these exercises will prepare you for advanced robotics research and development, where AI-powered perception, navigation, and control systems are increasingly essential for autonomous robot operation.</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/your-username/ai-robotic-book/tree/main/docs/module-3-ai-robot-brain/exercises.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_vwxv"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/ai-robotic-book/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Reinforcement Learning for Locomotion: AI-Driven Movement Control</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/ai-robotic-book/docs/module-4-vla/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Module 4: Vision-Language-Action (VLA)</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#exercise-overview" class="table-of-contents__link toc-highlight">Exercise Overview</a></li><li><a href="#exercise-1-isaac-sim-environment-creation" class="table-of-contents__link toc-highlight">Exercise 1: Isaac Sim Environment Creation</a><ul><li><a href="#objective" class="table-of-contents__link toc-highlight">Objective</a></li><li><a href="#tasks" class="table-of-contents__link toc-highlight">Tasks</a></li><li><a href="#deliverables" class="table-of-contents__link toc-highlight">Deliverables</a></li><li><a href="#time-estimate" class="table-of-contents__link toc-highlight">Time Estimate</a></li><li><a href="#learning-outcomes" class="table-of-contents__link toc-highlight">Learning Outcomes</a></li></ul></li><li><a href="#exercise-2-isaac-ros-perception-pipeline" class="table-of-contents__link toc-highlight">Exercise 2: Isaac ROS Perception Pipeline</a><ul><li><a href="#objective-1" class="table-of-contents__link toc-highlight">Objective</a></li><li><a href="#tasks-1" class="table-of-contents__link toc-highlight">Tasks</a></li><li><a href="#required-components" class="table-of-contents__link toc-highlight">Required Components</a></li><li><a href="#deliverables-1" class="table-of-contents__link toc-highlight">Deliverables</a></li><li><a href="#time-estimate-1" class="table-of-contents__link toc-highlight">Time Estimate</a></li><li><a href="#learning-outcomes-1" class="table-of-contents__link toc-highlight">Learning Outcomes</a></li></ul></li><li><a href="#exercise-3-nav2-autonomous-navigation" class="table-of-contents__link toc-highlight">Exercise 3: Nav2 Autonomous Navigation</a><ul><li><a href="#objective-2" class="table-of-contents__link toc-highlight">Objective</a></li><li><a href="#tasks-2" class="table-of-contents__link toc-highlight">Tasks</a></li><li><a href="#configuration-requirements" class="table-of-contents__link toc-highlight">Configuration Requirements</a></li><li><a href="#deliverables-2" class="table-of-contents__link toc-highlight">Deliverables</a></li><li><a href="#time-estimate-2" class="table-of-contents__link toc-highlight">Time Estimate</a></li><li><a href="#learning-outcomes-2" class="table-of-contents__link toc-highlight">Learning Outcomes</a></li></ul></li><li><a href="#exercise-4-reinforcement-learning-locomotion" class="table-of-contents__link toc-highlight">Exercise 4: Reinforcement Learning Locomotion</a><ul><li><a href="#objective-3" class="table-of-contents__link toc-highlight">Objective</a></li><li><a href="#tasks-3" class="table-of-contents__link toc-highlight">Tasks</a></li><li><a href="#implementation-requirements" class="table-of-contents__link toc-highlight">Implementation Requirements</a></li><li><a href="#deliverables-3" class="table-of-contents__link toc-highlight">Deliverables</a></li><li><a href="#time-estimate-3" class="table-of-contents__link toc-highlight">Time Estimate</a></li><li><a href="#learning-outcomes-3" class="table-of-contents__link toc-highlight">Learning Outcomes</a></li></ul></li><li><a href="#exercise-5-ai-robot-brain-integration-challenge" class="table-of-contents__link toc-highlight">Exercise 5: AI-Robot Brain Integration Challenge</a><ul><li><a href="#objective-4" class="table-of-contents__link toc-highlight">Objective</a></li><li><a href="#tasks-4" class="table-of-contents__link toc-highlight">Tasks</a></li><li><a href="#integration-requirements" class="table-of-contents__link toc-highlight">Integration Requirements</a></li><li><a href="#scenario-specifications" class="table-of-contents__link toc-highlight">Scenario Specifications</a></li><li><a href="#performance-metrics" class="table-of-contents__link toc-highlight">Performance Metrics</a></li><li><a href="#deliverables-4" class="table-of-contents__link toc-highlight">Deliverables</a></li><li><a href="#time-estimate-4" class="table-of-contents__link toc-highlight">Time Estimate</a></li><li><a href="#learning-outcomes-4" class="table-of-contents__link toc-highlight">Learning Outcomes</a></li></ul></li><li><a href="#exercise-6-perception-enhanced-navigation" class="table-of-contents__link toc-highlight">Exercise 6: Perception-Enhanced Navigation</a><ul><li><a href="#objective-5" class="table-of-contents__link toc-highlight">Objective</a></li><li><a href="#tasks-5" class="table-of-contents__link toc-highlight">Tasks</a></li><li><a href="#advanced-features" class="table-of-contents__link toc-highlight">Advanced Features</a></li><li><a href="#deliverables-5" class="table-of-contents__link toc-highlight">Deliverables</a></li><li><a href="#time-estimate-5" class="table-of-contents__link toc-highlight">Time Estimate</a></li><li><a href="#learning-outcomes-5" class="table-of-contents__link toc-highlight">Learning Outcomes</a></li></ul></li><li><a href="#assessment-criteria" class="table-of-contents__link toc-highlight">Assessment Criteria</a><ul><li><a href="#technical-proficiency-40" class="table-of-contents__link toc-highlight">Technical Proficiency (40%)</a></li><li><a href="#performance-30" class="table-of-contents__link toc-highlight">Performance (30%)</a></li><li><a href="#problem-solving-20" class="table-of-contents__link toc-highlight">Problem-Solving (20%)</a></li><li><a href="#documentation-10" class="table-of-contents__link toc-highlight">Documentation (10%)</a></li></ul></li><li><a href="#prerequisites-for-exercises" class="table-of-contents__link toc-highlight">Prerequisites for Exercises</a></li><li><a href="#resources-and-support" class="table-of-contents__link toc-highlight">Resources and Support</a><ul><li><a href="#helpful-commands" class="table-of-contents__link toc-highlight">Helpful Commands</a></li><li><a href="#troubleshooting-tips" class="table-of-contents__link toc-highlight">Troubleshooting Tips</a></li><li><a href="#expected-challenges" class="table-of-contents__link toc-highlight">Expected Challenges</a></li></ul></li><li><a href="#extension-activities" class="table-of-contents__link toc-highlight">Extension Activities</a></li><li><a href="#summary" class="table-of-contents__link toc-highlight">Summary</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/ai-robotic-book/docs/intro">Introduction</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://stackoverflow.com/questions/tagged/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stack Overflow<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://twitter.com/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/your-username/ai-robotic-book" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 AI/Spec-Driven Book Project. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

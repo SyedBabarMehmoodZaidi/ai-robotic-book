@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-module-4-vla/exercises" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.1.0">
+<title data-rh="true">Module 4 Exercises: Vision-Language-Action Integration | AI/Spec-Driven Book: Physical AI &amp; Humanoid Robotics</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://your-username.github.io/ai-robotic-book/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://your-username.github.io/ai-robotic-book/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://your-username.github.io/ai-robotic-book/docs/module-4-vla/exercises"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Module 4 Exercises: Vision-Language-Action Integration | AI/Spec-Driven Book: Physical AI &amp; Humanoid Robotics"><meta data-rh="true" name="description" content="Exercise Overview"><meta data-rh="true" property="og:description" content="Exercise Overview"><link data-rh="true" rel="icon" href="/ai-robotic-book/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://your-username.github.io/ai-robotic-book/docs/module-4-vla/exercises"><link data-rh="true" rel="alternate" href="https://your-username.github.io/ai-robotic-book/docs/module-4-vla/exercises" hreflang="en"><link data-rh="true" rel="alternate" href="https://your-username.github.io/ai-robotic-book/docs/module-4-vla/exercises" hreflang="x-default"><link rel="stylesheet" href="/ai-robotic-book/assets/css/styles.ea15741b.css">
+<script src="/ai-robotic-book/assets/js/runtime~main.e5f34529.js" defer="defer"></script>
+<script src="/ai-robotic-book/assets/js/main.40aacef7.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/ai-robotic-book/"><div class="navbar__logo"><img src="/ai-robotic-book/img/logo.svg" alt="AI Robotics Book Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/ai-robotic-book/img/logo.svg" alt="AI Robotics Book Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">AI Robotics Book</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/ai-robotic-book/docs/intro">Book</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/your-username/ai-robotic-book" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ai-robotic-book/docs/intro">Introduction to Physical AI &amp; Humanoid Robotics</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/ai-robotic-book/docs/module-1-ros2/">Module 1: The Robotic Nervous System (ROS 2)</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/ai-robotic-book/docs/module-2-digital-twin/">Module 2: The Digital Twin (Gazebo &amp; Unity)</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/ai-robotic-book/docs/module-3-ai-robot-brain/">Module 3: The AI-Robot Brain (NVIDIA Isaac)</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" aria-expanded="true" href="/ai-robotic-book/docs/module-4-vla/">Module 4: Vision-Language-Action (VLA)</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ai-robotic-book/docs/module-4-vla/">Module 4: Vision-Language-Action (VLA)</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ai-robotic-book/docs/module-4-vla/vla-architecture">VLA Architecture: Vision-Language-Action Fundamentals</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ai-robotic-book/docs/module-4-vla/multimodal-perception">Multimodal Perception: Vision-Language Integration</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ai-robotic-book/docs/module-4-vla/language-guided-manipulation">Language-Guided Manipulation: From Commands to Actions</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ai-robotic-book/docs/module-4-vla/vla-system-integration">VLA System Integration: End-to-End Implementation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/ai-robotic-book/docs/module-4-vla/exercises">Module 4 Exercises: Vision-Language-Action Integration</a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ai-robotic-book/docs/capstone-project">Capstone Project: Integrated AI-Powered Humanoid Robot</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/ai-robotic-book/docs/appendices/hardware-requirements">Appendices</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ai-robotic-book/docs/references">References</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ai-robotic-book/docs/glossary">Glossary</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ai-robotic-book/docs/conclusion">Conclusion and Future Directions</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/ai-robotic-book/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Module 4: Vision-Language-Action (VLA)</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Module 4 Exercises: Vision-Language-Action Integration</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><h1>Module 4 Exercises: Vision-Language-Action Integration</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-overview">Exercise Overview<a href="#exercise-overview" class="hash-link" aria-label="Direct link to Exercise Overview" title="Direct link to Exercise Overview">​</a></h2>
+<p>This exercise section provides hands-on activities that integrate all concepts from Module 4: Vision-Language-Action (VLA). These exercises will help you apply VLA architectures, multimodal perception, language-guided manipulation, and system integration in practical scenarios that mirror real-world robotics challenges.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-1-vla-architecture-implementation">Exercise 1: VLA Architecture Implementation<a href="#exercise-1-vla-architecture-implementation" class="hash-link" aria-label="Direct link to Exercise 1: VLA Architecture Implementation" title="Direct link to Exercise 1: VLA Architecture Implementation">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="objective">Objective<a href="#objective" class="hash-link" aria-label="Direct link to Objective" title="Direct link to Objective">​</a></h3>
+<p>Implement a basic Vision-Language-Action architecture that processes visual input and language commands to generate robotic actions.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tasks">Tasks<a href="#tasks" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks">​</a></h3>
+<ol>
+<li>Set up the development environment with required dependencies (PyTorch, Transformers, etc.)</li>
+<li>Implement the vision encoder using CLIP or similar vision model</li>
+<li>Integrate a language model (Llama, GPT, etc.) for command processing</li>
+<li>Create a fusion mechanism to combine visual and language features</li>
+<li>Implement a simple action decoder that generates motor commands</li>
+<li>Test the architecture with basic commands like &quot;pick up the red block&quot;</li>
+<li>Evaluate the component integration and debugging techniques</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="required-components">Required Components<a href="#required-components" class="hash-link" aria-label="Direct link to Required Components" title="Direct link to Required Components">​</a></h3>
+<ul>
+<li>Vision encoder (CLIP or similar)</li>
+<li>Language model (Llama, GPT, etc.)</li>
+<li>Multimodal fusion mechanism</li>
+<li>Action decoder</li>
+<li>Basic testing framework</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="deliverables">Deliverables<a href="#deliverables" class="hash-link" aria-label="Direct link to Deliverables" title="Direct link to Deliverables">​</a></h3>
+<ul>
+<li>Complete VLA architecture implementation</li>
+<li>Training code for the fusion mechanism</li>
+<li>Test results with basic commands</li>
+<li>Performance metrics and analysis</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="time-estimate">Time Estimate<a href="#time-estimate" class="hash-link" aria-label="Direct link to Time Estimate" title="Direct link to Time Estimate">​</a></h3>
+<p>6-8 hours</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="learning-outcomes">Learning Outcomes<a href="#learning-outcomes" class="hash-link" aria-label="Direct link to Learning Outcomes" title="Direct link to Learning Outcomes">​</a></h3>
+<ul>
+<li>Understanding of VLA architecture components</li>
+<li>Implementation of multimodal fusion</li>
+<li>Basic action generation from language commands</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-2-multimodal-perception-system">Exercise 2: Multimodal Perception System<a href="#exercise-2-multimodal-perception-system" class="hash-link" aria-label="Direct link to Exercise 2: Multimodal Perception System" title="Direct link to Exercise 2: Multimodal Perception System">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="objective-1">Objective<a href="#objective-1" class="hash-link" aria-label="Direct link to Objective" title="Direct link to Objective">​</a></h3>
+<p>Build a multimodal perception system that grounds language commands to visual objects and locations in the environment.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tasks-1">Tasks<a href="#tasks-1" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks">​</a></h3>
+<ol>
+<li>Implement object detection and classification in images</li>
+<li>Create a language parser that extracts object and location references</li>
+<li>Develop a grounding mechanism that connects language to visual elements</li>
+<li>Implement spatial reasoning for understanding object relationships</li>
+<li>Test with various scenes containing multiple objects</li>
+<li>Evaluate grounding accuracy using Intersection over Union (IoU)</li>
+<li>Analyze the system&#x27;s performance on ambiguous language commands</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="implementation-requirements">Implementation Requirements<a href="#implementation-requirements" class="hash-link" aria-label="Direct link to Implementation Requirements" title="Direct link to Implementation Requirements">​</a></h3>
+<ul>
+<li>Object detection pipeline</li>
+<li>Language parsing and entity extraction</li>
+<li>Visual grounding mechanism</li>
+<li>Spatial relationship analysis</li>
+<li>Evaluation framework</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="evaluation-metrics">Evaluation Metrics<a href="#evaluation-metrics" class="hash-link" aria-label="Direct link to Evaluation Metrics" title="Direct link to Evaluation Metrics">​</a></h3>
+<ul>
+<li>Grounding accuracy (&gt;70% for basic objects)</li>
+<li>IoU scores for bounding box predictions</li>
+<li>Language understanding accuracy</li>
+<li>Robustness to ambiguous commands</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="deliverables-1">Deliverables<a href="#deliverables-1" class="hash-link" aria-label="Direct link to Deliverables" title="Direct link to Deliverables">​</a></h3>
+<ul>
+<li>Multimodal perception system</li>
+<li>Grounding accuracy report</li>
+<li>Spatial reasoning demonstration</li>
+<li>Performance analysis</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="time-estimate-1">Time Estimate<a href="#time-estimate-1" class="hash-link" aria-label="Direct link to Time Estimate" title="Direct link to Time Estimate">​</a></h3>
+<p>8-10 hours</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="learning-outcomes-1">Learning Outcomes<a href="#learning-outcomes-1" class="hash-link" aria-label="Direct link to Learning Outcomes" title="Direct link to Learning Outcomes">​</a></h3>
+<ul>
+<li>Visual grounding techniques</li>
+<li>Language-to-vision connection</li>
+<li>Spatial reasoning implementation</li>
+<li>Multimodal data fusion</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-3-language-guided-manipulation">Exercise 3: Language-Guided Manipulation<a href="#exercise-3-language-guided-manipulation" class="hash-link" aria-label="Direct link to Exercise 3: Language-Guided Manipulation" title="Direct link to Exercise 3: Language-Guided Manipulation">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="objective-2">Objective<a href="#objective-2" class="hash-link" aria-label="Direct link to Objective" title="Direct link to Objective">​</a></h3>
+<p>Create a manipulation system that interprets natural language commands and executes corresponding robotic actions.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tasks-2">Tasks<a href="#tasks-2" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks">​</a></h3>
+<ol>
+<li>Implement command parsing for manipulation verbs (pick, place, move, etc.)</li>
+<li>Create a skill library with basic manipulation primitives</li>
+<li>Develop object-specific action modifiers based on object properties</li>
+<li>Implement motion planning for manipulation tasks</li>
+<li>Test with various manipulation commands</li>
+<li>Evaluate task success rate and execution accuracy</li>
+<li>Implement error handling and recovery mechanisms</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="skill-implementation-requirements">Skill Implementation Requirements<a href="#skill-implementation-requirements" class="hash-link" aria-label="Direct link to Skill Implementation Requirements" title="Direct link to Skill Implementation Requirements">​</a></h3>
+<ul>
+<li>Pick and place skills</li>
+<li>Object-specific grasp planning</li>
+<li>Motion primitive execution</li>
+<li>Task decomposition</li>
+<li>Error recovery strategies</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="testing-scenarios">Testing Scenarios<a href="#testing-scenarios" class="hash-link" aria-label="Direct link to Testing Scenarios" title="Direct link to Testing Scenarios">​</a></h3>
+<ul>
+<li>&quot;Pick up the red cube and place it on the table&quot;</li>
+<li>&quot;Move the small ball to the left of the big block&quot;</li>
+<li>&quot;Grasp the bottle by the handle&quot;</li>
+<li>&quot;Stack the blocks in order of size&quot;</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="deliverables-2">Deliverables<a href="#deliverables-2" class="hash-link" aria-label="Direct link to Deliverables" title="Direct link to Deliverables">​</a></h3>
+<ul>
+<li>Language-guided manipulation system</li>
+<li>Skill library implementation</li>
+<li>Task execution demonstrations</li>
+<li>Success rate evaluation</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="time-estimate-2">Time Estimate<a href="#time-estimate-2" class="hash-link" aria-label="Direct link to Time Estimate" title="Direct link to Time Estimate">​</a></h3>
+<p>10-12 hours</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="learning-outcomes-2">Learning Outcomes<a href="#learning-outcomes-2" class="hash-link" aria-label="Direct link to Learning Outcomes" title="Direct link to Learning Outcomes">​</a></h3>
+<ul>
+<li>Natural language command interpretation</li>
+<li>Manipulation skill execution</li>
+<li>Task planning and decomposition</li>
+<li>Error handling in manipulation</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-4-end-to-end-vla-training">Exercise 4: End-to-End VLA Training<a href="#exercise-4-end-to-end-vla-training" class="hash-link" aria-label="Direct link to Exercise 4: End-to-End VLA Training" title="Direct link to Exercise 4: End-to-End VLA Training">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="objective-3">Objective<a href="#objective-3" class="hash-link" aria-label="Direct link to Objective" title="Direct link to Objective">​</a></h3>
+<p>Train a complete VLA system using demonstration data or synthetic data generation.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tasks-3">Tasks<a href="#tasks-3" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks">​</a></h3>
+<ol>
+<li>Prepare training data with visual observations, language commands, and expert actions</li>
+<li>Implement data preprocessing pipelines for multimodal inputs</li>
+<li>Set up the complete VLA model architecture</li>
+<li>Train the system using supervised learning or imitation learning</li>
+<li>Implement evaluation protocols for trained models</li>
+<li>Fine-tune the model for specific tasks</li>
+<li>Analyze training dynamics and performance improvements</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="data-preparation-requirements">Data Preparation Requirements<a href="#data-preparation-requirements" class="hash-link" aria-label="Direct link to Data Preparation Requirements" title="Direct link to Data Preparation Requirements">​</a></h3>
+<ul>
+<li>Visual observations (images, point clouds)</li>
+<li>Language commands (tokenized text)</li>
+<li>Expert actions (joint positions, end-effector poses)</li>
+<li>Task demonstrations dataset</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="training-implementation">Training Implementation<a href="#training-implementation" class="hash-link" aria-label="Direct link to Training Implementation" title="Direct link to Training Implementation">​</a></h3>
+<ul>
+<li>Supervised learning pipeline</li>
+<li>Loss function design for multimodal outputs</li>
+<li>Gradient flow optimization</li>
+<li>Regularization techniques</li>
+<li>Validation protocols</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="evaluation-metrics-1">Evaluation Metrics<a href="#evaluation-metrics-1" class="hash-link" aria-label="Direct link to Evaluation Metrics" title="Direct link to Evaluation Metrics">​</a></h3>
+<ul>
+<li>Action prediction accuracy</li>
+<li>Language command success rate</li>
+<li>Task completion rate</li>
+<li>Generalization to new scenarios</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="deliverables-3">Deliverables<a href="#deliverables-3" class="hash-link" aria-label="Direct link to Deliverables" title="Direct link to Deliverables">​</a></h3>
+<ul>
+<li>Trained VLA model</li>
+<li>Training curves and analysis</li>
+<li>Evaluation results</li>
+<li>Fine-tuned model for specific tasks</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="time-estimate-3">Time Estimate<a href="#time-estimate-3" class="hash-link" aria-label="Direct link to Time Estimate" title="Direct link to Time Estimate">​</a></h3>
+<p>12-15 hours (including training time)</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="learning-outcomes-3">Learning Outcomes<a href="#learning-outcomes-3" class="hash-link" aria-label="Direct link to Learning Outcomes" title="Direct link to Learning Outcomes">​</a></h3>
+<ul>
+<li>End-to-end VLA training procedures</li>
+<li>Multimodal data handling</li>
+<li>Model optimization techniques</li>
+<li>Performance evaluation methods</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-5-real-world-vla-deployment">Exercise 5: Real-World VLA Deployment<a href="#exercise-5-real-world-vla-deployment" class="hash-link" aria-label="Direct link to Exercise 5: Real-World VLA Deployment" title="Direct link to Exercise 5: Real-World VLA Deployment">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="objective-4">Objective<a href="#objective-4" class="hash-link" aria-label="Direct link to Objective" title="Direct link to Objective">​</a></h3>
+<p>Deploy the VLA system on a real robot platform and test its performance in physical environments.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tasks-4">Tasks<a href="#tasks-4" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks">​</a></h3>
+<ol>
+<li>Integrate the VLA system with a robotic platform (simulated or real)</li>
+<li>Set up ROS (Robot Operating System) interfaces for perception and control</li>
+<li>Implement real-time processing capabilities</li>
+<li>Test the system with physical objects and environments</li>
+<li>Evaluate system performance in real-world conditions</li>
+<li>Implement safety mechanisms and error handling</li>
+<li>Document the deployment process and challenges</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="integration-requirements">Integration Requirements<a href="#integration-requirements" class="hash-link" aria-label="Direct link to Integration Requirements" title="Direct link to Integration Requirements">​</a></h3>
+<ul>
+<li>ROS node implementation</li>
+<li>Camera and sensor integration</li>
+<li>Robot controller interfaces</li>
+<li>Real-time performance optimization</li>
+<li>Safety protocols</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="testing-scenarios-1">Testing Scenarios<a href="#testing-scenarios-1" class="hash-link" aria-label="Direct link to Testing Scenarios" title="Direct link to Testing Scenarios">​</a></h3>
+<ul>
+<li>Object manipulation in unstructured environments</li>
+<li>Language command execution with real objects</li>
+<li>Performance under varying lighting conditions</li>
+<li>Robustness to environmental changes</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="performance-metrics">Performance Metrics<a href="#performance-metrics" class="hash-link" aria-label="Direct link to Performance Metrics" title="Direct link to Performance Metrics">​</a></h3>
+<ul>
+<li>Real-time execution (response time &lt; 1 second)</li>
+<li>Task success rate in physical environment</li>
+<li>System reliability and safety</li>
+<li>Adaptation to real-world conditions</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="deliverables-4">Deliverables<a href="#deliverables-4" class="hash-link" aria-label="Direct link to Deliverables" title="Direct link to Deliverables">​</a></h3>
+<ul>
+<li>Deployed VLA system</li>
+<li>Performance evaluation report</li>
+<li>Safety and reliability analysis</li>
+<li>Deployment documentation</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="time-estimate-4">Time Estimate<a href="#time-estimate-4" class="hash-link" aria-label="Direct link to Time Estimate" title="Direct link to Time Estimate">​</a></h3>
+<p>15-20 hours</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="learning-outcomes-4">Learning Outcomes<a href="#learning-outcomes-4" class="hash-link" aria-label="Direct link to Learning Outcomes" title="Direct link to Learning Outcomes">​</a></h3>
+<ul>
+<li>Real-world robotics deployment</li>
+<li>ROS integration techniques</li>
+<li>Real-time system optimization</li>
+<li>Physical robot interaction</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exercise-6-advanced-vla-capabilities">Exercise 6: Advanced VLA Capabilities<a href="#exercise-6-advanced-vla-capabilities" class="hash-link" aria-label="Direct link to Exercise 6: Advanced VLA Capabilities" title="Direct link to Exercise 6: Advanced VLA Capabilities">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="objective-5">Objective<a href="#objective-5" class="hash-link" aria-label="Direct link to Objective" title="Direct link to Objective">​</a></h3>
+<p>Extend the basic VLA system with advanced capabilities like sequential task execution and multi-step planning.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tasks-5">Tasks<a href="#tasks-5" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks">​</a></h3>
+<ol>
+<li>Implement memory mechanisms for sequential task execution</li>
+<li>Create task planning modules for multi-step commands</li>
+<li>Add temporal reasoning capabilities</li>
+<li>Implement skill chaining for complex behaviors</li>
+<li>Test with multi-step commands like &quot;pick up the cup, fill it with water, and place it on the counter&quot;</li>
+<li>Evaluate system performance on complex tasks</li>
+<li>Implement learning from corrections and feedback</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="advanced-features">Advanced Features<a href="#advanced-features" class="hash-link" aria-label="Direct link to Advanced Features" title="Direct link to Advanced Features">​</a></h3>
+<ul>
+<li>Sequential task execution</li>
+<li>Multi-step planning</li>
+<li>Temporal reasoning</li>
+<li>Skill chaining</li>
+<li>Learning from corrections</li>
+<li>Memory-augmented reasoning</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="complex-command-examples">Complex Command Examples<a href="#complex-command-examples" class="hash-link" aria-label="Direct link to Complex Command Examples" title="Direct link to Complex Command Examples">​</a></h3>
+<ul>
+<li>&quot;First pick up the red block, then place it on the blue block, and finally move the tower to the left&quot;</li>
+<li>&quot;Go to the kitchen, find a cup, bring it to the table, and wait for further instructions&quot;</li>
+<li>&quot;Organize the objects by color: put all red objects in the red bin, blue in the blue bin, etc.&quot;</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="deliverables-5">Deliverables<a href="#deliverables-5" class="hash-link" aria-label="Direct link to Deliverables" title="Direct link to Deliverables">​</a></h3>
+<ul>
+<li>Advanced VLA system with memory</li>
+<li>Multi-step task execution demonstrations</li>
+<li>Sequential planning evaluation</li>
+<li>Learning from corrections implementation</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="time-estimate-5">Time Estimate<a href="#time-estimate-5" class="hash-link" aria-label="Direct link to Time Estimate" title="Direct link to Time Estimate">​</a></h3>
+<p>10-12 hours</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="learning-outcomes-5">Learning Outcomes<a href="#learning-outcomes-5" class="hash-link" aria-label="Direct link to Learning Outcomes" title="Direct link to Learning Outcomes">​</a></h3>
+<ul>
+<li>Sequential task execution</li>
+<li>Multi-step planning algorithms</li>
+<li>Memory-augmented reasoning</li>
+<li>Complex command handling</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="assessment-criteria">Assessment Criteria<a href="#assessment-criteria" class="hash-link" aria-label="Direct link to Assessment Criteria" title="Direct link to Assessment Criteria">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="technical-implementation-40">Technical Implementation (40%)<a href="#technical-implementation-40" class="hash-link" aria-label="Direct link to Technical Implementation (40%)" title="Direct link to Technical Implementation (40%)">​</a></h3>
+<ul>
+<li>Correct implementation of VLA architecture components</li>
+<li>Proper integration of vision, language, and action systems</li>
+<li>Code quality and documentation</li>
+<li>System architecture design</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="performance-30">Performance (30%)<a href="#performance-30" class="hash-link" aria-label="Direct link to Performance (30%)" title="Direct link to Performance (30%)">​</a></h3>
+<ul>
+<li>Quantitative metrics achievement</li>
+<li>Task success rates</li>
+<li>Response time and efficiency</li>
+<li>Robustness and reliability</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="innovation-and-problem-solving-20">Innovation and Problem-Solving (20%)<a href="#innovation-and-problem-solving-20" class="hash-link" aria-label="Direct link to Innovation and Problem-Solving (20%)" title="Direct link to Innovation and Problem-Solving (20%)">​</a></h3>
+<ul>
+<li>Creative solutions to integration challenges</li>
+<li>Effective debugging and optimization strategies</li>
+<li>Novel approaches to multimodal fusion</li>
+<li>Adaptation to real-world constraints</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="documentation-and-analysis-10">Documentation and Analysis (10%)<a href="#documentation-and-analysis-10" class="hash-link" aria-label="Direct link to Documentation and Analysis (10%)" title="Direct link to Documentation and Analysis (10%)">​</a></h3>
+<ul>
+<li>Clear implementation documentation</li>
+<li>Performance analysis and evaluation</li>
+<li>Lessons learned and future improvements</li>
+<li>Comprehensive testing results</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="prerequisites-for-exercises">Prerequisites for Exercises<a href="#prerequisites-for-exercises" class="hash-link" aria-label="Direct link to Prerequisites for Exercises" title="Direct link to Prerequisites for Exercises">​</a></h2>
+<p>Before starting these exercises, ensure you have:</p>
+<ul>
+<li>Completed all Module 4 sections</li>
+<li>Understanding of deep learning frameworks (PyTorch/TensorFlow)</li>
+<li>Experience with transformer architectures</li>
+<li>Basic robotics knowledge (ROS, robot control)</li>
+<li>Appropriate computational resources (GPU recommended)</li>
+<li>Access to robotic simulation or real platform</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="resources-and-support">Resources and Support<a href="#resources-and-support" class="hash-link" aria-label="Direct link to Resources and Support" title="Direct link to Resources and Support">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="required-dependencies">Required Dependencies<a href="#required-dependencies" class="hash-link" aria-label="Direct link to Required Dependencies" title="Direct link to Required Dependencies">​</a></h3>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Core dependencies</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip install torch torchvision torchaudio</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip install transformers</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip install diffusers</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip install datasets</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip install accelerate</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Robotics dependencies</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip install rospy</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip install sensor-msgs</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip install geometry-msgs</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip install cv-bridge</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Computer vision</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip install opencv-python</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip install pillow</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip install scikit-image</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="helpful-commands">Helpful Commands<a href="#helpful-commands" class="hash-link" aria-label="Direct link to Helpful Commands" title="Direct link to Helpful Commands">​</a></h3>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Check GPU availability</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nvidia-smi</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Verify PyTorch installation</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">python -c &quot;import torch; print(torch.cuda.is_available())&quot;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Check transformers installation</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">python -c &quot;from transformers import CLIPModel; print(&#x27;CLIP available&#x27;)&quot;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="troubleshooting-tips">Troubleshooting Tips<a href="#troubleshooting-tips" class="hash-link" aria-label="Direct link to Troubleshooting Tips" title="Direct link to Troubleshooting Tips">​</a></h3>
+<ol>
+<li>Start with small models and simple commands before scaling up</li>
+<li>Use synthetic data initially before moving to real data</li>
+<li>Implement modular components that can be tested independently</li>
+<li>Monitor GPU memory usage during training</li>
+<li>Validate each component before system integration</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="expected-challenges">Expected Challenges<a href="#expected-challenges" class="hash-link" aria-label="Direct link to Expected Challenges" title="Direct link to Expected Challenges">​</a></h3>
+<ul>
+<li>GPU memory limitations with large models</li>
+<li>Multimodal feature alignment and fusion</li>
+<li>Real-time performance optimization</li>
+<li>Training data quality and quantity</li>
+<li>Real-world deployment complexities</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="extension-activities">Extension Activities<a href="#extension-activities" class="hash-link" aria-label="Direct link to Extension Activities" title="Direct link to Extension Activities">​</a></h2>
+<p>For advanced students, consider these additional challenges:</p>
+<ol>
+<li>Implement VLA with multiple robots coordination</li>
+<li>Add reinforcement learning for skill improvement</li>
+<li>Create a VLA system for specific domain applications</li>
+<li>Develop multimodal learning from web-scale data</li>
+<li>Implement VLA with continuous learning capabilities</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="summary">Summary<a href="#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary">​</a></h2>
+<p>These exercises provide comprehensive hands-on experience with Vision-Language-Action systems, from basic architecture implementation to real-world deployment. By completing these activities, you will have developed practical skills in multimodal AI, robotics integration, and end-to-end system development.</p>
+<p>The progression from basic components to complete system integration mirrors the development process for real VLA systems, preparing you for advanced research and development in embodied AI and human-robot interaction. Successfully completing these exercises will demonstrate your ability to create sophisticated AI systems that can understand natural language, perceive visual environments, and execute complex robotic tasks.</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/your-username/ai-robotic-book/tree/main/docs/module-4-vla/exercises.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_vwxv"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/ai-robotic-book/docs/module-4-vla/vla-system-integration"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">VLA System Integration: End-to-End Implementation</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/ai-robotic-book/docs/capstone-project"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Capstone Project: Integrated AI-Powered Humanoid Robot</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#exercise-overview" class="table-of-contents__link toc-highlight">Exercise Overview</a></li><li><a href="#exercise-1-vla-architecture-implementation" class="table-of-contents__link toc-highlight">Exercise 1: VLA Architecture Implementation</a><ul><li><a href="#objective" class="table-of-contents__link toc-highlight">Objective</a></li><li><a href="#tasks" class="table-of-contents__link toc-highlight">Tasks</a></li><li><a href="#required-components" class="table-of-contents__link toc-highlight">Required Components</a></li><li><a href="#deliverables" class="table-of-contents__link toc-highlight">Deliverables</a></li><li><a href="#time-estimate" class="table-of-contents__link toc-highlight">Time Estimate</a></li><li><a href="#learning-outcomes" class="table-of-contents__link toc-highlight">Learning Outcomes</a></li></ul></li><li><a href="#exercise-2-multimodal-perception-system" class="table-of-contents__link toc-highlight">Exercise 2: Multimodal Perception System</a><ul><li><a href="#objective-1" class="table-of-contents__link toc-highlight">Objective</a></li><li><a href="#tasks-1" class="table-of-contents__link toc-highlight">Tasks</a></li><li><a href="#implementation-requirements" class="table-of-contents__link toc-highlight">Implementation Requirements</a></li><li><a href="#evaluation-metrics" class="table-of-contents__link toc-highlight">Evaluation Metrics</a></li><li><a href="#deliverables-1" class="table-of-contents__link toc-highlight">Deliverables</a></li><li><a href="#time-estimate-1" class="table-of-contents__link toc-highlight">Time Estimate</a></li><li><a href="#learning-outcomes-1" class="table-of-contents__link toc-highlight">Learning Outcomes</a></li></ul></li><li><a href="#exercise-3-language-guided-manipulation" class="table-of-contents__link toc-highlight">Exercise 3: Language-Guided Manipulation</a><ul><li><a href="#objective-2" class="table-of-contents__link toc-highlight">Objective</a></li><li><a href="#tasks-2" class="table-of-contents__link toc-highlight">Tasks</a></li><li><a href="#skill-implementation-requirements" class="table-of-contents__link toc-highlight">Skill Implementation Requirements</a></li><li><a href="#testing-scenarios" class="table-of-contents__link toc-highlight">Testing Scenarios</a></li><li><a href="#deliverables-2" class="table-of-contents__link toc-highlight">Deliverables</a></li><li><a href="#time-estimate-2" class="table-of-contents__link toc-highlight">Time Estimate</a></li><li><a href="#learning-outcomes-2" class="table-of-contents__link toc-highlight">Learning Outcomes</a></li></ul></li><li><a href="#exercise-4-end-to-end-vla-training" class="table-of-contents__link toc-highlight">Exercise 4: End-to-End VLA Training</a><ul><li><a href="#objective-3" class="table-of-contents__link toc-highlight">Objective</a></li><li><a href="#tasks-3" class="table-of-contents__link toc-highlight">Tasks</a></li><li><a href="#data-preparation-requirements" class="table-of-contents__link toc-highlight">Data Preparation Requirements</a></li><li><a href="#training-implementation" class="table-of-contents__link toc-highlight">Training Implementation</a></li><li><a href="#evaluation-metrics-1" class="table-of-contents__link toc-highlight">Evaluation Metrics</a></li><li><a href="#deliverables-3" class="table-of-contents__link toc-highlight">Deliverables</a></li><li><a href="#time-estimate-3" class="table-of-contents__link toc-highlight">Time Estimate</a></li><li><a href="#learning-outcomes-3" class="table-of-contents__link toc-highlight">Learning Outcomes</a></li></ul></li><li><a href="#exercise-5-real-world-vla-deployment" class="table-of-contents__link toc-highlight">Exercise 5: Real-World VLA Deployment</a><ul><li><a href="#objective-4" class="table-of-contents__link toc-highlight">Objective</a></li><li><a href="#tasks-4" class="table-of-contents__link toc-highlight">Tasks</a></li><li><a href="#integration-requirements" class="table-of-contents__link toc-highlight">Integration Requirements</a></li><li><a href="#testing-scenarios-1" class="table-of-contents__link toc-highlight">Testing Scenarios</a></li><li><a href="#performance-metrics" class="table-of-contents__link toc-highlight">Performance Metrics</a></li><li><a href="#deliverables-4" class="table-of-contents__link toc-highlight">Deliverables</a></li><li><a href="#time-estimate-4" class="table-of-contents__link toc-highlight">Time Estimate</a></li><li><a href="#learning-outcomes-4" class="table-of-contents__link toc-highlight">Learning Outcomes</a></li></ul></li><li><a href="#exercise-6-advanced-vla-capabilities" class="table-of-contents__link toc-highlight">Exercise 6: Advanced VLA Capabilities</a><ul><li><a href="#objective-5" class="table-of-contents__link toc-highlight">Objective</a></li><li><a href="#tasks-5" class="table-of-contents__link toc-highlight">Tasks</a></li><li><a href="#advanced-features" class="table-of-contents__link toc-highlight">Advanced Features</a></li><li><a href="#complex-command-examples" class="table-of-contents__link toc-highlight">Complex Command Examples</a></li><li><a href="#deliverables-5" class="table-of-contents__link toc-highlight">Deliverables</a></li><li><a href="#time-estimate-5" class="table-of-contents__link toc-highlight">Time Estimate</a></li><li><a href="#learning-outcomes-5" class="table-of-contents__link toc-highlight">Learning Outcomes</a></li></ul></li><li><a href="#assessment-criteria" class="table-of-contents__link toc-highlight">Assessment Criteria</a><ul><li><a href="#technical-implementation-40" class="table-of-contents__link toc-highlight">Technical Implementation (40%)</a></li><li><a href="#performance-30" class="table-of-contents__link toc-highlight">Performance (30%)</a></li><li><a href="#innovation-and-problem-solving-20" class="table-of-contents__link toc-highlight">Innovation and Problem-Solving (20%)</a></li><li><a href="#documentation-and-analysis-10" class="table-of-contents__link toc-highlight">Documentation and Analysis (10%)</a></li></ul></li><li><a href="#prerequisites-for-exercises" class="table-of-contents__link toc-highlight">Prerequisites for Exercises</a></li><li><a href="#resources-and-support" class="table-of-contents__link toc-highlight">Resources and Support</a><ul><li><a href="#required-dependencies" class="table-of-contents__link toc-highlight">Required Dependencies</a></li><li><a href="#helpful-commands" class="table-of-contents__link toc-highlight">Helpful Commands</a></li><li><a href="#troubleshooting-tips" class="table-of-contents__link toc-highlight">Troubleshooting Tips</a></li><li><a href="#expected-challenges" class="table-of-contents__link toc-highlight">Expected Challenges</a></li></ul></li><li><a href="#extension-activities" class="table-of-contents__link toc-highlight">Extension Activities</a></li><li><a href="#summary" class="table-of-contents__link toc-highlight">Summary</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/ai-robotic-book/docs/intro">Introduction</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://stackoverflow.com/questions/tagged/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stack Overflow<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://twitter.com/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/your-username/ai-robotic-book" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 AI/Spec-Driven Book Project. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
