@@ -1,0 +1,24 @@
+{
+  "id": "user-guide/rag-features-user-guide",
+  "title": "RAG Features User Guide",
+  "description": "This guide explains how to use the Retrieval-Augmented Generation (RAG) features integrated into the Physical AI & Humanoid Robotics book.",
+  "source": "@site/docs/user-guide/rag-features-user-guide.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/rag-features-user-guide",
+  "permalink": "/docs/user-guide/rag-features-user-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/user-guide/rag-features-user-guide.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RAG Configuration Management",
+    "permalink": "/docs/contracts/rag-configuration-management"
+  },
+  "next": {
+    "title": "RAG System Developer Documentation",
+    "permalink": "/docs/developer-guide/rag-developer-documentation"
+  }
+}

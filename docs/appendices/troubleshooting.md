@@ -377,7 +377,38 @@ iotop         # Disk I/O
 - Unity Community: unity.com/community
 - NVIDIA Developer Forums: developer.nvidia.com
 
-### When to Ask for Help
+### RAG System Validation
+
+When experiencing issues with the RAG (Retrieval-Augmented Generation) system integration, use the validation tools to diagnose problems:
+
+import RAGValidation from '@site/src/components/RAGValidation/RAGValidation';
+
+<RAGValidation />
+
+### Common RAG Issues and Solutions
+
+#### 1. Backend Connectivity Issues
+**Symptoms**: Query interface shows connection errors or timeouts
+**Solutions**:
+- Verify RAG backend service is running on localhost:8000
+- Check firewall settings that might block the connection
+- Ensure backend API is properly configured
+
+#### 2. Query Processing Failures
+**Symptoms**: Queries fail to return responses or return errors
+**Solutions**:
+- Use the validation tools to test API functionality
+- Verify query format and length requirements
+- Check backend logs for error details
+
+#### 3. Selected Text Capture Issues
+**Symptoms**: Selected text not captured or not sent with queries
+**Solutions**:
+- Verify SelectedTextCapture component is properly loaded
+- Check that selected text meets minimum length requirements (10 characters)
+- Ensure proper event listener registration
+
+## When to Ask for Help
 1. You've spent more than 2 hours on a single issue
 2. You've searched documentation and forums without success
 3. You have a minimal reproducible example

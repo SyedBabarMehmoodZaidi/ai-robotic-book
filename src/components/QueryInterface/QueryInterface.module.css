@@ -1,0 +1,139 @@
+/* Container for the entire query interface */
+.queryContainer {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fafafa;
+  max-width: 800px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Form container */
+.queryForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Input group containing textarea and selected text preview */
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Textarea for query input */
+.queryInput {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  resize: vertical;
+  min-height: 80px;
+  box-sizing: border-box;
+}
+
+.queryInput:focus {
+  outline: none;
+  border-color: #007cba;
+  box-shadow: 0 0 0 2px rgba(0, 124, 186, 0.2);
+}
+
+/* Preview of selected text */
+.selectedTextPreview {
+  background-color: #e3f2fd;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  color: #555;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Submit button */
+.submitButton {
+  align-self: flex-start;
+  padding: 0.5rem 1rem;
+  background-color: #007cba;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+  min-width: 100px;
+}
+
+.submitButton:hover:not(:disabled) {
+  background-color: #005a87;
+}
+
+.submitButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Loading indicator */
+.loadingIndicator {
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
+/* Error message */
+.error {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #ffebee;
+  color: #c62828;
+  border: 1px solid #ffcdd2;
+  border-radius: 4px;
+}
+
+/* Response container */
+.responseContainer {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.responseContainer h4 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+/* Response text */
+.responseText {
+  line-height: 1.6;
+  color: #444;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Source context */
+.sourceContext {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #f5f5f5;
+  border-left: 3px solid #007cba;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+/* Confidence score */
+.confidence {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: #666;
+  font-style: italic;
+}

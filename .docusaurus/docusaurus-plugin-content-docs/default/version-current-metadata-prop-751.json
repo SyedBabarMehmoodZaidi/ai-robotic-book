@@ -12,7 +12,7 @@
       {
         "type": "link",
         "label": "Introduction to Physical AI & Humanoid Robotics",
-        "href": "/ai-robotic-book/docs/intro",
+        "href": "/docs/intro",
         "docId": "intro",
         "unlisted": false
       },
@@ -23,42 +23,42 @@
           {
             "type": "link",
             "label": "Module 1: The Robotic Nervous System (ROS 2)",
-            "href": "/ai-robotic-book/docs/module-1-ros2/",
+            "href": "/docs/module-1-ros2/",
             "docId": "module-1-ros2/index",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "ROS 2 Architecture: Nodes, Topics, Services, and Actions",
-            "href": "/ai-robotic-book/docs/module-1-ros2/architecture",
+            "href": "/docs/module-1-ros2/architecture",
             "docId": "module-1-ros2/architecture",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Python Agent Integration with ROS Controllers using rclpy",
-            "href": "/ai-robotic-book/docs/module-1-ros2/python-integration",
+            "href": "/docs/module-1-ros2/python-integration",
             "docId": "module-1-ros2/python-integration",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "URDF for Humanoid Robots",
-            "href": "/ai-robotic-book/docs/module-1-ros2/urdf-robots",
+            "href": "/docs/module-1-ros2/urdf-robots",
             "docId": "module-1-ros2/urdf-robots",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "ROS 2 Packages, Launch Files, and Parameter Management",
-            "href": "/ai-robotic-book/docs/module-1-ros2/packages-management",
+            "href": "/docs/module-1-ros2/packages-management",
             "docId": "module-1-ros2/packages-management",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 1 Exercises: ROS 2 Fundamentals",
-            "href": "/ai-robotic-book/docs/module-1-ros2/exercises",
+            "href": "/docs/module-1-ros2/exercises",
             "docId": "module-1-ros2/exercises",
             "unlisted": false
           }
@@ -73,42 +73,42 @@
           {
             "type": "link",
             "label": "Module 2: The Digital Twin (Gazebo & Unity)",
-            "href": "/ai-robotic-book/docs/module-2-digital-twin/",
+            "href": "/docs/module-2-digital-twin/",
             "docId": "module-2-digital-twin/index",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Gazebo Setup: Physics Simulation Environment",
-            "href": "/ai-robotic-book/docs/module-2-digital-twin/gazebo-setup",
+            "href": "/docs/module-2-digital-twin/gazebo-setup",
             "docId": "module-2-digital-twin/gazebo-setup",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Unity Simulation: High-Fidelity Visualization and Human-Robot Interaction",
-            "href": "/ai-robotic-book/docs/module-2-digital-twin/unity-simulation",
+            "href": "/docs/module-2-digital-twin/unity-simulation",
             "docId": "module-2-digital-twin/unity-simulation",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "URDF/SDF Formats: Robot Description and Simulation Formats",
-            "href": "/ai-robotic-book/docs/module-2-digital-twin/urdf-sdf-formats",
+            "href": "/docs/module-2-digital-twin/urdf-sdf-formats",
             "docId": "module-2-digital-twin/urdf-sdf-formats",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Sensor Simulation: LiDAR, Depth Cameras, and IMUs",
-            "href": "/ai-robotic-book/docs/module-2-digital-twin/sensor-simulation",
+            "href": "/docs/module-2-digital-twin/sensor-simulation",
             "docId": "module-2-digital-twin/sensor-simulation",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 2 Exercises: Digital Twin Implementation",
-            "href": "/ai-robotic-book/docs/module-2-digital-twin/exercises",
+            "href": "/docs/module-2-digital-twin/exercises",
             "docId": "module-2-digital-twin/exercises",
             "unlisted": false
           }
@@ -123,42 +123,42 @@
           {
             "type": "link",
             "label": "Module 3: The AI-Robot Brain (NVIDIA Isaac)",
-            "href": "/ai-robotic-book/docs/module-3-ai-robot-brain/",
+            "href": "/docs/module-3-ai-robot-brain/",
             "docId": "module-3-ai-robot-brain/index",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "NVIDIA Isaac Sim Setup: AI-Powered Simulation Environment",
-            "href": "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-sim-setup",
+            "href": "/docs/module-3-ai-robot-brain/isaac-sim-setup",
             "docId": "module-3-ai-robot-brain/isaac-sim-setup",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Isaac ROS Integration: GPU-Accelerated Perception and VSLAM",
-            "href": "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-ros-vslam",
+            "href": "/docs/module-3-ai-robot-brain/isaac-ros-vslam",
             "docId": "module-3-ai-robot-brain/isaac-ros-vslam",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Nav2 Path Planning: Advanced Navigation and Autonomous Movement",
-            "href": "/ai-robotic-book/docs/module-3-ai-robot-brain/nav2-path-planning",
+            "href": "/docs/module-3-ai-robot-brain/nav2-path-planning",
             "docId": "module-3-ai-robot-brain/nav2-path-planning",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Reinforcement Learning for Locomotion: AI-Driven Movement Control",
-            "href": "/ai-robotic-book/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion",
+            "href": "/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion",
             "docId": "module-3-ai-robot-brain/reinforcement-learning-locomotion",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 3 Exercises: AI-Robot Brain Integration",
-            "href": "/ai-robotic-book/docs/module-3-ai-robot-brain/exercises",
+            "href": "/docs/module-3-ai-robot-brain/exercises",
             "docId": "module-3-ai-robot-brain/exercises",
             "unlisted": false
           }
@@ -173,42 +173,42 @@
           {
             "type": "link",
             "label": "Module 4: Vision-Language-Action (VLA)",
-            "href": "/ai-robotic-book/docs/module-4-vla/",
+            "href": "/docs/module-4-vla/",
             "docId": "module-4-vla/index",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "VLA Architecture: Vision-Language-Action Fundamentals",
-            "href": "/ai-robotic-book/docs/module-4-vla/vla-architecture",
+            "href": "/docs/module-4-vla/vla-architecture",
             "docId": "module-4-vla/vla-architecture",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Multimodal Perception: Vision-Language Integration",
-            "href": "/ai-robotic-book/docs/module-4-vla/multimodal-perception",
+            "href": "/docs/module-4-vla/multimodal-perception",
             "docId": "module-4-vla/multimodal-perception",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Language-Guided Manipulation: From Commands to Actions",
-            "href": "/ai-robotic-book/docs/module-4-vla/language-guided-manipulation",
+            "href": "/docs/module-4-vla/language-guided-manipulation",
             "docId": "module-4-vla/language-guided-manipulation",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "VLA System Integration: End-to-End Implementation",
-            "href": "/ai-robotic-book/docs/module-4-vla/vla-system-integration",
+            "href": "/docs/module-4-vla/vla-system-integration",
             "docId": "module-4-vla/vla-system-integration",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 4 Exercises: Vision-Language-Action Integration",
-            "href": "/ai-robotic-book/docs/module-4-vla/exercises",
+            "href": "/docs/module-4-vla/exercises",
             "docId": "module-4-vla/exercises",
             "unlisted": false
           }
@@ -219,7 +219,7 @@
       {
         "type": "link",
         "label": "Capstone Project: Integrated AI-Powered Humanoid Robot",
-        "href": "/ai-robotic-book/docs/capstone-project",
+        "href": "/docs/capstone-project",
         "docId": "capstone-project",
         "unlisted": false
       },
@@ -230,22 +230,102 @@
           {
             "type": "link",
             "label": "Hardware Requirements",
-            "href": "/ai-robotic-book/docs/appendices/hardware-requirements",
+            "href": "/docs/appendices/hardware-requirements",
             "docId": "appendices/hardware-requirements",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Installation Guide",
-            "href": "/ai-robotic-book/docs/appendices/installation-guide",
+            "href": "/docs/appendices/installation-guide",
             "docId": "appendices/installation-guide",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Troubleshooting",
-            "href": "/ai-robotic-book/docs/appendices/troubleshooting",
+            "href": "/docs/appendices/troubleshooting",
             "docId": "appendices/troubleshooting",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "RAG System Contracts",
+        "items": [
+          {
+            "type": "link",
+            "label": "RAG API Contracts",
+            "href": "/docs/contracts/rag-api-contracts",
+            "docId": "contracts/rag-api-contracts",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "RAG Data Models",
+            "href": "/docs/contracts/rag-data-models",
+            "docId": "contracts/rag-data-models",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "RAG Error Handling",
+            "href": "/docs/contracts/rag-error-handling",
+            "docId": "contracts/rag-error-handling",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "RAG Performance Optimization",
+            "href": "/docs/contracts/rag-performance-optimization",
+            "docId": "contracts/rag-performance-optimization",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "RAG Security Implementation",
+            "href": "/docs/contracts/rag-security-implementation",
+            "docId": "contracts/rag-security-implementation",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "RAG Configuration Management",
+            "href": "/docs/contracts/rag-configuration-management",
+            "docId": "contracts/rag-configuration-management",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "User Guides",
+        "items": [
+          {
+            "type": "link",
+            "label": "RAG Features User Guide",
+            "href": "/docs/user-guide/rag-features-user-guide",
+            "docId": "user-guide/rag-features-user-guide",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Developer Guides",
+        "items": [
+          {
+            "type": "link",
+            "label": "RAG System Developer Documentation",
+            "href": "/docs/developer-guide/rag-developer-documentation",
+            "docId": "developer-guide/rag-developer-documentation",
             "unlisted": false
           }
         ],
@@ -255,21 +335,21 @@
       {
         "type": "link",
         "label": "References",
-        "href": "/ai-robotic-book/docs/references",
+        "href": "/docs/references",
         "docId": "references",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Glossary",
-        "href": "/ai-robotic-book/docs/glossary",
+        "href": "/docs/glossary",
         "docId": "glossary",
         "unlisted": false
       },
       {
         "type": "link",
         "label": "Conclusion and Future Directions",
-        "href": "/ai-robotic-book/docs/conclusion",
+        "href": "/docs/conclusion",
         "docId": "conclusion",
         "unlisted": false
       }
@@ -304,6 +384,48 @@
       "id": "conclusion",
       "title": "Conclusion and Future Directions",
       "description": "Project Summary",
+      "sidebar": "tutorialSidebar"
+    },
+    "contracts/rag-api-contracts": {
+      "id": "contracts/rag-api-contracts",
+      "title": "RAG API Contracts",
+      "description": "This document defines the API contracts for the Retrieval-Augmented Generation (RAG) system that enables querying the book content with AI assistance.",
+      "sidebar": "tutorialSidebar"
+    },
+    "contracts/rag-configuration-management": {
+      "id": "contracts/rag-configuration-management",
+      "title": "RAG Configuration Management",
+      "description": "This document outlines the configuration management system for the Retrieval-Augmented Generation (RAG) system in the Physical AI & Humanoid Robotics book.",
+      "sidebar": "tutorialSidebar"
+    },
+    "contracts/rag-data-models": {
+      "id": "contracts/rag-data-models",
+      "title": "RAG Data Models",
+      "description": "This document defines the data models used in the Retrieval-Augmented Generation (RAG) system for the Physical AI & Humanoid Robotics book.",
+      "sidebar": "tutorialSidebar"
+    },
+    "contracts/rag-error-handling": {
+      "id": "contracts/rag-error-handling",
+      "title": "RAG Error Handling",
+      "description": "This document outlines the error handling strategies and mechanisms implemented in the Retrieval-Augmented Generation (RAG) system for the Physical AI & Humanoid Robotics book.",
+      "sidebar": "tutorialSidebar"
+    },
+    "contracts/rag-performance-optimization": {
+      "id": "contracts/rag-performance-optimization",
+      "title": "RAG Performance Optimization",
+      "description": "This document outlines the performance optimization strategies and techniques implemented in the Retrieval-Augmented Generation (RAG) system for the Physical AI & Humanoid Robotics book.",
+      "sidebar": "tutorialSidebar"
+    },
+    "contracts/rag-security-implementation": {
+      "id": "contracts/rag-security-implementation",
+      "title": "RAG Security Implementation",
+      "description": "This document outlines the security measures and implementation strategies for the Retrieval-Augmented Generation (RAG) system in the Physical AI & Humanoid Robotics book.",
+      "sidebar": "tutorialSidebar"
+    },
+    "developer-guide/rag-developer-documentation": {
+      "id": "developer-guide/rag-developer-documentation",
+      "title": "RAG System Developer Documentation",
+      "description": "This document provides comprehensive technical documentation for developers working with the Retrieval-Augmented Generation (RAG) system integrated into the Physical AI & Humanoid Robotics book.",
       "sidebar": "tutorialSidebar"
     },
     "glossary": {
@@ -466,6 +588,12 @@
       "id": "references",
       "title": "References",
       "description": "This page contains the peer-reviewed sources and references used throughout the AI/Spec-Driven Book on Physical AI & Humanoid Robotics.",
+      "sidebar": "tutorialSidebar"
+    },
+    "user-guide/rag-features-user-guide": {
+      "id": "user-guide/rag-features-user-guide",
+      "title": "RAG Features User Guide",
+      "description": "This guide explains how to use the Retrieval-Augmented Generation (RAG) features integrated into the Physical AI & Humanoid Robotics book.",
       "sidebar": "tutorialSidebar"
     }
   }

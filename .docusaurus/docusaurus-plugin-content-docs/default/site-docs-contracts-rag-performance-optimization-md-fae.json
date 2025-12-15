@@ -1,0 +1,24 @@
+{
+  "id": "contracts/rag-performance-optimization",
+  "title": "RAG Performance Optimization",
+  "description": "This document outlines the performance optimization strategies and techniques implemented in the Retrieval-Augmented Generation (RAG) system for the Physical AI & Humanoid Robotics book.",
+  "source": "@site/docs/contracts/rag-performance-optimization.md",
+  "sourceDirName": "contracts",
+  "slug": "/contracts/rag-performance-optimization",
+  "permalink": "/docs/contracts/rag-performance-optimization",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/contracts/rag-performance-optimization.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RAG Error Handling",
+    "permalink": "/docs/contracts/rag-error-handling"
+  },
+  "next": {
+    "title": "RAG Security Implementation",
+    "permalink": "/docs/contracts/rag-security-implementation"
+  }
+}

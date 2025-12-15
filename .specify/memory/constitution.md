@@ -58,6 +58,19 @@ All sections, components, and docs MUST follow a unified style, tone, and techni
 - Compatible with Claude Code workflows and Spec-Kit Plus commands.
 - No proprietary content or copyrighted text without permission.
 
+## RAG Frontend Integration Specifications
+
+- RAG System: MUST include Retrieval-Augmented Generation integration with AI-powered question answering capabilities.
+- Components: MUST implement QueryInterface, SelectedTextCapture, and RAGValidation components.
+- API Client: MUST include a robust JavaScript API client with timeout, retry, and error handling mechanisms.
+- Configuration: MUST use configurable parameters for backend URL, timeouts, and validation rules.
+- Styling: MUST use CSS modules for component styling to ensure isolated and maintainable stylesheets.
+- Security: MUST implement client-side input validation and secure communication practices.
+- Performance: MUST optimize for fast loading and responsive user experience with proper caching strategies.
+- Documentation: MUST include comprehensive contracts, user guides, and developer documentation for all RAG features.
+- Testing: MUST include unit tests, integration tests, and end-to-end tests for all RAG components.
+- Deployment: MUST be compatible with Docusaurus build process and static hosting environments.
+
 ## Success Criteria
 
 - A complete, structured Docusaurus book generated via Spec-Kit Plus workflows.

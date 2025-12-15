@@ -1,0 +1,24 @@
+{
+  "id": "developer-guide/rag-developer-documentation",
+  "title": "RAG System Developer Documentation",
+  "description": "This document provides comprehensive technical documentation for developers working with the Retrieval-Augmented Generation (RAG) system integrated into the Physical AI & Humanoid Robotics book.",
+  "source": "@site/docs/developer-guide/rag-developer-documentation.md",
+  "sourceDirName": "developer-guide",
+  "slug": "/developer-guide/rag-developer-documentation",
+  "permalink": "/docs/developer-guide/rag-developer-documentation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/developer-guide/rag-developer-documentation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RAG Features User Guide",
+    "permalink": "/docs/user-guide/rag-features-user-guide"
+  },
+  "next": {
+    "title": "References",
+    "permalink": "/docs/references"
+  }
+}

@@ -41,12 +41,49 @@ const config = {
           editUrl:
             'https://github.com/your-username/ai-robotic-book/tree/main/',
         },
-       
+
         theme: {
           customCss: './src/css/custom.css',
         },
       }),
     ],
+  ],
+
+  themes: [
+    // ... your other themes
+  ],
+
+  plugins: [
+    // Add custom scripts for RAG frontend integration
+    async function myPlugin(context, options) {
+      return {
+        name: 'custom-backend-verification',
+        injectHtmlTags() {
+          return {
+            headTags: [
+              {
+                tagName: 'script',
+                attributes: {
+                  src: '/js/config.js',
+                },
+              },
+              {
+                tagName: 'script',
+                attributes: {
+                  src: '/js/api-client.js',
+                },
+              },
+              {
+                tagName: 'script',
+                attributes: {
+                  src: '/js/backend-verification.js',
+                },
+              },
+            ],
+          };
+        },
+      };
+    },
   ],
 
   themeConfig:

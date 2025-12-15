@@ -5,7 +5,7 @@
   "source": "@site/docs/module-1-ros2/exercises.md",
   "sourceDirName": "module-1-ros2",
   "slug": "/module-1-ros2/exercises",
-  "permalink": "/ai-robotic-book/docs/module-1-ros2/exercises",
+  "permalink": "/docs/module-1-ros2/exercises",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-1-ros2/exercises.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "ROS 2 Packages, Launch Files, and Parameter Management",
-    "permalink": "/ai-robotic-book/docs/module-1-ros2/packages-management"
+    "permalink": "/docs/module-1-ros2/packages-management"
   },
   "next": {
     "title": "Module 2: The Digital Twin (Gazebo & Unity)",
-    "permalink": "/ai-robotic-book/docs/module-2-digital-twin/"
+    "permalink": "/docs/module-2-digital-twin/"
   }
 }

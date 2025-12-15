@@ -2,7 +2,11 @@
 sidebar_position: 8
 ---
 
+import QueryInterface from '@site/src/components/QueryInterface/QueryInterface';
+
 # Conclusion and Future Directions
+
+<QueryInterface />
 
 ## Project Summary
 

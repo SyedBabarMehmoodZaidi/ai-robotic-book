@@ -2,7 +2,11 @@
 sidebar_position: 1
 ---
 
+import QueryInterface from '@site/src/components/QueryInterface/QueryInterface';
+
 # Module 2: The Digital Twin (Gazebo & Unity)
+
+<QueryInterface />
 
 ## Learning Objectives
 

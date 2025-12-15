@@ -1,0 +1,24 @@
+{
+  "id": "contracts/rag-configuration-management",
+  "title": "RAG Configuration Management",
+  "description": "This document outlines the configuration management system for the Retrieval-Augmented Generation (RAG) system in the Physical AI & Humanoid Robotics book.",
+  "source": "@site/docs/contracts/rag-configuration-management.md",
+  "sourceDirName": "contracts",
+  "slug": "/contracts/rag-configuration-management",
+  "permalink": "/docs/contracts/rag-configuration-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/contracts/rag-configuration-management.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RAG Security Implementation",
+    "permalink": "/docs/contracts/rag-security-implementation"
+  },
+  "next": {
+    "title": "RAG Features User Guide",
+    "permalink": "/docs/user-guide/rag-features-user-guide"
+  }
+}

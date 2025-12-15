@@ -2,7 +2,11 @@
 sidebar_position: 1
 ---
 
+import QueryInterface from '@site/src/components/QueryInterface/QueryInterface';
+
 # Module 1: The Robotic Nervous System (ROS 2)
+
+<QueryInterface />
 
 ## Learning Objectives
 

@@ -5,7 +5,7 @@
   "source": "@site/docs/module-1-ros2/architecture.md",
   "sourceDirName": "module-1-ros2",
   "slug": "/module-1-ros2/architecture",
-  "permalink": "/ai-robotic-book/docs/module-1-ros2/architecture",
+  "permalink": "/docs/module-1-ros2/architecture",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-1-ros2/architecture.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 1: The Robotic Nervous System (ROS 2)",
-    "permalink": "/ai-robotic-book/docs/module-1-ros2/"
+    "permalink": "/docs/module-1-ros2/"
   },
   "next": {
     "title": "Python Agent Integration with ROS Controllers using rclpy",
-    "permalink": "/ai-robotic-book/docs/module-1-ros2/python-integration"
+    "permalink": "/docs/module-1-ros2/python-integration"
   }
 }

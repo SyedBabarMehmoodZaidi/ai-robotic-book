@@ -1,0 +1,83 @@
+[project]
+name = "ai-robotic-book-rag-validation"
+version = "0.1.0"
+description = "A comprehensive validation system for Retrieval-Augmented Generation (RAG) systems that connects to Qdrant to execute similarity search queries using Cohere embeddings."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "AI Robotic Book Team" }
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "python-dotenv>=1.0.0",
+    "qdrant-client>=1.9.0",
+    "cohere>=5.0.0",
+    "numpy>=1.24.0",
+    "requests>=2.31.0",
+    "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+]
+test = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/your-username/ai-robotic-book"
+Repository = "https://github.com/your-username/ai-robotic-book"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["backend*"]
+
+[tool.pytest.ini_options]
+testpaths = ["backend"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-v",
+    "--cov=backend",
+    "--cov-report=html",
+    "--cov-report=term-missing"
+]
+
+[tool.coverage.run]
+source = ["backend"]
+omit = [
+    "*/tests/*",
+    "*/test_*.py",
+    "*/__pycache__/*",
+    "*/venv/*",
+    "*/env/*"
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+skip-string-normalization = true
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+warn_unused_ignores = true
+disallow_untyped_defs = true
