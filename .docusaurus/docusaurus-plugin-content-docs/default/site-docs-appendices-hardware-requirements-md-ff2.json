@@ -5,7 +5,7 @@
   "source": "@site/docs/appendices/hardware-requirements.md",
   "sourceDirName": "appendices",
   "slug": "/appendices/hardware-requirements",
-  "permalink": "/ai-robotic-book/docs/appendices/hardware-requirements",
+  "permalink": "/docs/appendices/hardware-requirements",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/appendices/hardware-requirements.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Capstone Project: Integrated AI-Powered Humanoid Robot",
-    "permalink": "/ai-robotic-book/docs/capstone-project"
+    "permalink": "/docs/capstone-project"
   },
   "next": {
     "title": "Installation Guide",
-    "permalink": "/ai-robotic-book/docs/appendices/installation-guide"
+    "permalink": "/docs/appendices/installation-guide"
   }
 }

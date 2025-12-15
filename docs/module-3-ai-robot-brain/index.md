@@ -2,7 +2,11 @@
 sidebar_position: 1
 ---
 
+import QueryInterface from '@site/src/components/QueryInterface/QueryInterface';
+
 # Module 3: The AI-Robot Brain (NVIDIA Isaac)
+
+<QueryInterface />
 
 ## Learning Objectives
 

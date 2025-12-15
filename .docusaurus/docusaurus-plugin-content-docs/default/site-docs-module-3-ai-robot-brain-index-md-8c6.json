@@ -5,7 +5,7 @@
   "source": "@site/docs/module-3-ai-robot-brain/index.md",
   "sourceDirName": "module-3-ai-robot-brain",
   "slug": "/module-3-ai-robot-brain/",
-  "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/",
+  "permalink": "/docs/module-3-ai-robot-brain/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-3-ai-robot-brain/index.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 2 Exercises: Digital Twin Implementation",
-    "permalink": "/ai-robotic-book/docs/module-2-digital-twin/exercises"
+    "permalink": "/docs/module-2-digital-twin/exercises"
   },
   "next": {
     "title": "NVIDIA Isaac Sim Setup: AI-Powered Simulation Environment",
-    "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-sim-setup"
+    "permalink": "/docs/module-3-ai-robot-brain/isaac-sim-setup"
   }
 }

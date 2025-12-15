@@ -62,6 +62,32 @@ const sidebars = {
         'appendices/troubleshooting'
       ],
     },
+    {
+      type: 'category',
+      label: 'RAG System Contracts',
+      items: [
+        'contracts/rag-api-contracts',
+        'contracts/rag-data-models',
+        'contracts/rag-error-handling',
+        'contracts/rag-performance-optimization',
+        'contracts/rag-security-implementation',
+        'contracts/rag-configuration-management'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'User Guides',
+      items: [
+        'user-guide/rag-features-user-guide'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Developer Guides',
+      items: [
+        'developer-guide/rag-developer-documentation'
+      ],
+    },
     'references',
     'glossary',
     'conclusion'

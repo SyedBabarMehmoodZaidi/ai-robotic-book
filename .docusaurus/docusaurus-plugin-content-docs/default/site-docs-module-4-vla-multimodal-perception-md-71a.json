@@ -5,7 +5,7 @@
   "source": "@site/docs/module-4-vla/multimodal-perception.md",
   "sourceDirName": "module-4-vla",
   "slug": "/module-4-vla/multimodal-perception",
-  "permalink": "/ai-robotic-book/docs/module-4-vla/multimodal-perception",
+  "permalink": "/docs/module-4-vla/multimodal-perception",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-4-vla/multimodal-perception.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "VLA Architecture: Vision-Language-Action Fundamentals",
-    "permalink": "/ai-robotic-book/docs/module-4-vla/vla-architecture"
+    "permalink": "/docs/module-4-vla/vla-architecture"
   },
   "next": {
     "title": "Language-Guided Manipulation: From Commands to Actions",
-    "permalink": "/ai-robotic-book/docs/module-4-vla/language-guided-manipulation"
+    "permalink": "/docs/module-4-vla/language-guided-manipulation"
   }
 }

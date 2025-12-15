@@ -1,4 +1,8 @@
+import QueryInterface from '@site/src/components/QueryInterface/QueryInterface';
+
 # Glossary
+
+<QueryInterface />
 
 This glossary provides definitions for key terms and concepts used throughout the AI/Spec-Driven Book on Physical AI & Humanoid Robotics.
 

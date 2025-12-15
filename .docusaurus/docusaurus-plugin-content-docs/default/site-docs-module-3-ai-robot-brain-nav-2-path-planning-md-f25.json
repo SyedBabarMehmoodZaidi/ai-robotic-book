@@ -5,7 +5,7 @@
   "source": "@site/docs/module-3-ai-robot-brain/nav2-path-planning.md",
   "sourceDirName": "module-3-ai-robot-brain",
   "slug": "/module-3-ai-robot-brain/nav2-path-planning",
-  "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/nav2-path-planning",
+  "permalink": "/docs/module-3-ai-robot-brain/nav2-path-planning",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-3-ai-robot-brain/nav2-path-planning.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Isaac ROS Integration: GPU-Accelerated Perception and VSLAM",
-    "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-ros-vslam"
+    "permalink": "/docs/module-3-ai-robot-brain/isaac-ros-vslam"
   },
   "next": {
     "title": "Reinforcement Learning for Locomotion: AI-Driven Movement Control",
-    "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion"
+    "permalink": "/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion"
   }
 }

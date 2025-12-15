@@ -5,7 +5,7 @@
   "source": "@site/docs/module-2-digital-twin/unity-simulation.md",
   "sourceDirName": "module-2-digital-twin",
   "slug": "/module-2-digital-twin/unity-simulation",
-  "permalink": "/ai-robotic-book/docs/module-2-digital-twin/unity-simulation",
+  "permalink": "/docs/module-2-digital-twin/unity-simulation",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-2-digital-twin/unity-simulation.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Gazebo Setup: Physics Simulation Environment",
-    "permalink": "/ai-robotic-book/docs/module-2-digital-twin/gazebo-setup"
+    "permalink": "/docs/module-2-digital-twin/gazebo-setup"
   },
   "next": {
     "title": "URDF/SDF Formats: Robot Description and Simulation Formats",
-    "permalink": "/ai-robotic-book/docs/module-2-digital-twin/urdf-sdf-formats"
+    "permalink": "/docs/module-2-digital-twin/urdf-sdf-formats"
   }
 }

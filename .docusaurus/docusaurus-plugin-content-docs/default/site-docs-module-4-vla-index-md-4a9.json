@@ -5,7 +5,7 @@
   "source": "@site/docs/module-4-vla/index.md",
   "sourceDirName": "module-4-vla",
   "slug": "/module-4-vla/",
-  "permalink": "/ai-robotic-book/docs/module-4-vla/",
+  "permalink": "/docs/module-4-vla/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-4-vla/index.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 3 Exercises: AI-Robot Brain Integration",
-    "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/exercises"
+    "permalink": "/docs/module-3-ai-robot-brain/exercises"
   },
   "next": {
     "title": "VLA Architecture: Vision-Language-Action Fundamentals",
-    "permalink": "/ai-robotic-book/docs/module-4-vla/vla-architecture"
+    "permalink": "/docs/module-4-vla/vla-architecture"
   }
 }

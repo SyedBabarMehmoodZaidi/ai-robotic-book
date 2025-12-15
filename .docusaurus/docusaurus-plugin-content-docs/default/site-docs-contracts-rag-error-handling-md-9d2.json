@@ -1,0 +1,24 @@
+{
+  "id": "contracts/rag-error-handling",
+  "title": "RAG Error Handling",
+  "description": "This document outlines the error handling strategies and mechanisms implemented in the Retrieval-Augmented Generation (RAG) system for the Physical AI & Humanoid Robotics book.",
+  "source": "@site/docs/contracts/rag-error-handling.md",
+  "sourceDirName": "contracts",
+  "slug": "/contracts/rag-error-handling",
+  "permalink": "/docs/contracts/rag-error-handling",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/contracts/rag-error-handling.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RAG Data Models",
+    "permalink": "/docs/contracts/rag-data-models"
+  },
+  "next": {
+    "title": "RAG Performance Optimization",
+    "permalink": "/docs/contracts/rag-performance-optimization"
+  }
+}

@@ -1,173 +1,213 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/ai-robotic-book/docs",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/ai-robotic-book/docs",
+          "path": "/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "appendices/hardware-requirements",
-              "path": "/ai-robotic-book/docs/appendices/hardware-requirements",
+              "path": "/docs/appendices/hardware-requirements",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "appendices/installation-guide",
-              "path": "/ai-robotic-book/docs/appendices/installation-guide",
+              "path": "/docs/appendices/installation-guide",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "appendices/troubleshooting",
-              "path": "/ai-robotic-book/docs/appendices/troubleshooting",
+              "path": "/docs/appendices/troubleshooting",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "capstone-project",
-              "path": "/ai-robotic-book/docs/capstone-project",
+              "path": "/docs/capstone-project",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "conclusion",
-              "path": "/ai-robotic-book/docs/conclusion",
+              "path": "/docs/conclusion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contracts/rag-api-contracts",
+              "path": "/docs/contracts/rag-api-contracts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contracts/rag-configuration-management",
+              "path": "/docs/contracts/rag-configuration-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contracts/rag-data-models",
+              "path": "/docs/contracts/rag-data-models",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contracts/rag-error-handling",
+              "path": "/docs/contracts/rag-error-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contracts/rag-performance-optimization",
+              "path": "/docs/contracts/rag-performance-optimization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contracts/rag-security-implementation",
+              "path": "/docs/contracts/rag-security-implementation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developer-guide/rag-developer-documentation",
+              "path": "/docs/developer-guide/rag-developer-documentation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "glossary",
-              "path": "/ai-robotic-book/docs/glossary",
+              "path": "/docs/glossary",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/ai-robotic-book/docs/intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-1-ros2/architecture",
-              "path": "/ai-robotic-book/docs/module-1-ros2/architecture",
+              "path": "/docs/module-1-ros2/architecture",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-1-ros2/exercises",
-              "path": "/ai-robotic-book/docs/module-1-ros2/exercises",
+              "path": "/docs/module-1-ros2/exercises",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-1-ros2/index",
-              "path": "/ai-robotic-book/docs/module-1-ros2/",
+              "path": "/docs/module-1-ros2/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-1-ros2/packages-management",
-              "path": "/ai-robotic-book/docs/module-1-ros2/packages-management",
+              "path": "/docs/module-1-ros2/packages-management",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-1-ros2/python-integration",
-              "path": "/ai-robotic-book/docs/module-1-ros2/python-integration",
+              "path": "/docs/module-1-ros2/python-integration",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-1-ros2/urdf-robots",
-              "path": "/ai-robotic-book/docs/module-1-ros2/urdf-robots",
+              "path": "/docs/module-1-ros2/urdf-robots",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-2-digital-twin/exercises",
-              "path": "/ai-robotic-book/docs/module-2-digital-twin/exercises",
+              "path": "/docs/module-2-digital-twin/exercises",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-2-digital-twin/gazebo-setup",
-              "path": "/ai-robotic-book/docs/module-2-digital-twin/gazebo-setup",
+              "path": "/docs/module-2-digital-twin/gazebo-setup",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-2-digital-twin/index",
-              "path": "/ai-robotic-book/docs/module-2-digital-twin/",
+              "path": "/docs/module-2-digital-twin/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-2-digital-twin/sensor-simulation",
-              "path": "/ai-robotic-book/docs/module-2-digital-twin/sensor-simulation",
+              "path": "/docs/module-2-digital-twin/sensor-simulation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-2-digital-twin/unity-simulation",
-              "path": "/ai-robotic-book/docs/module-2-digital-twin/unity-simulation",
+              "path": "/docs/module-2-digital-twin/unity-simulation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-2-digital-twin/urdf-sdf-formats",
-              "path": "/ai-robotic-book/docs/module-2-digital-twin/urdf-sdf-formats",
+              "path": "/docs/module-2-digital-twin/urdf-sdf-formats",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-3-ai-robot-brain/exercises",
-              "path": "/ai-robotic-book/docs/module-3-ai-robot-brain/exercises",
+              "path": "/docs/module-3-ai-robot-brain/exercises",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-3-ai-robot-brain/index",
-              "path": "/ai-robotic-book/docs/module-3-ai-robot-brain/",
+              "path": "/docs/module-3-ai-robot-brain/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-3-ai-robot-brain/isaac-ros-vslam",
-              "path": "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-ros-vslam",
+              "path": "/docs/module-3-ai-robot-brain/isaac-ros-vslam",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-3-ai-robot-brain/isaac-sim-setup",
-              "path": "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-sim-setup",
+              "path": "/docs/module-3-ai-robot-brain/isaac-sim-setup",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-3-ai-robot-brain/nav2-path-planning",
-              "path": "/ai-robotic-book/docs/module-3-ai-robot-brain/nav2-path-planning",
+              "path": "/docs/module-3-ai-robot-brain/nav2-path-planning",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-3-ai-robot-brain/reinforcement-learning-locomotion",
-              "path": "/ai-robotic-book/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion",
+              "path": "/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-4-vla/exercises",
-              "path": "/ai-robotic-book/docs/module-4-vla/exercises",
+              "path": "/docs/module-4-vla/exercises",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-4-vla/index",
-              "path": "/ai-robotic-book/docs/module-4-vla/",
+              "path": "/docs/module-4-vla/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-4-vla/language-guided-manipulation",
-              "path": "/ai-robotic-book/docs/module-4-vla/language-guided-manipulation",
+              "path": "/docs/module-4-vla/language-guided-manipulation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-4-vla/multimodal-perception",
-              "path": "/ai-robotic-book/docs/module-4-vla/multimodal-perception",
+              "path": "/docs/module-4-vla/multimodal-perception",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-4-vla/vla-architecture",
-              "path": "/ai-robotic-book/docs/module-4-vla/vla-architecture",
+              "path": "/docs/module-4-vla/vla-architecture",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-4-vla/vla-system-integration",
-              "path": "/ai-robotic-book/docs/module-4-vla/vla-system-integration",
+              "path": "/docs/module-4-vla/vla-system-integration",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "references",
-              "path": "/ai-robotic-book/docs/references",
+              "path": "/docs/references",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-guide/rag-features-user-guide",
+              "path": "/docs/user-guide/rag-features-user-guide",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -175,7 +215,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/ai-robotic-book/docs/intro",
+                "path": "/docs/intro",
                 "label": "intro"
               }
             }

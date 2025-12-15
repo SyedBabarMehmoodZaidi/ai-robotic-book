@@ -5,7 +5,7 @@
   "source": "@site/docs/appendices/troubleshooting.md",
   "sourceDirName": "appendices",
   "slug": "/appendices/troubleshooting",
-  "permalink": "/ai-robotic-book/docs/appendices/troubleshooting",
+  "permalink": "/docs/appendices/troubleshooting",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/appendices/troubleshooting.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Installation Guide",
-    "permalink": "/ai-robotic-book/docs/appendices/installation-guide"
+    "permalink": "/docs/appendices/installation-guide"
   },
   "next": {
-    "title": "References",
-    "permalink": "/ai-robotic-book/docs/references"
+    "title": "RAG API Contracts",
+    "permalink": "/docs/contracts/rag-api-contracts"
   }
 }

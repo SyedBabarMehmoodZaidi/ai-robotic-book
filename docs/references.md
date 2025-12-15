@@ -1,4 +1,8 @@
+import QueryInterface from '@site/src/components/QueryInterface/QueryInterface';
+
 # References
+
+<QueryInterface />
 
 This page contains the peer-reviewed sources and references used throughout the AI/Spec-Driven Book on Physical AI & Humanoid Robotics.
 

@@ -5,7 +5,7 @@
   "source": "@site/docs/module-4-vla/exercises.md",
   "sourceDirName": "module-4-vla",
   "slug": "/module-4-vla/exercises",
-  "permalink": "/ai-robotic-book/docs/module-4-vla/exercises",
+  "permalink": "/docs/module-4-vla/exercises",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-4-vla/exercises.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "VLA System Integration: End-to-End Implementation",
-    "permalink": "/ai-robotic-book/docs/module-4-vla/vla-system-integration"
+    "permalink": "/docs/module-4-vla/vla-system-integration"
   },
   "next": {
     "title": "Capstone Project: Integrated AI-Powered Humanoid Robot",
-    "permalink": "/ai-robotic-book/docs/capstone-project"
+    "permalink": "/docs/capstone-project"
   }
 }

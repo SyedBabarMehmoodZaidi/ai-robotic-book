@@ -1,0 +1,24 @@
+{
+  "id": "contracts/rag-api-contracts",
+  "title": "RAG API Contracts",
+  "description": "This document defines the API contracts for the Retrieval-Augmented Generation (RAG) system that enables querying the book content with AI assistance.",
+  "source": "@site/docs/contracts/rag-api-contracts.md",
+  "sourceDirName": "contracts",
+  "slug": "/contracts/rag-api-contracts",
+  "permalink": "/docs/contracts/rag-api-contracts",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/contracts/rag-api-contracts.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Troubleshooting",
+    "permalink": "/docs/appendices/troubleshooting"
+  },
+  "next": {
+    "title": "RAG Data Models",
+    "permalink": "/docs/contracts/rag-data-models"
+  }
+}

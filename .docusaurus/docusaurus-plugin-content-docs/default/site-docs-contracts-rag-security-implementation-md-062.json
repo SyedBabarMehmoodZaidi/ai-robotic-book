@@ -1,0 +1,24 @@
+{
+  "id": "contracts/rag-security-implementation",
+  "title": "RAG Security Implementation",
+  "description": "This document outlines the security measures and implementation strategies for the Retrieval-Augmented Generation (RAG) system in the Physical AI & Humanoid Robotics book.",
+  "source": "@site/docs/contracts/rag-security-implementation.md",
+  "sourceDirName": "contracts",
+  "slug": "/contracts/rag-security-implementation",
+  "permalink": "/docs/contracts/rag-security-implementation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/contracts/rag-security-implementation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RAG Performance Optimization",
+    "permalink": "/docs/contracts/rag-performance-optimization"
+  },
+  "next": {
+    "title": "RAG Configuration Management",
+    "permalink": "/docs/contracts/rag-configuration-management"
+  }
+}

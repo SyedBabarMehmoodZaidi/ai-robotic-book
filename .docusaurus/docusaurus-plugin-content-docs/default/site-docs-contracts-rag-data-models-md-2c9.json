@@ -1,0 +1,24 @@
+{
+  "id": "contracts/rag-data-models",
+  "title": "RAG Data Models",
+  "description": "This document defines the data models used in the Retrieval-Augmented Generation (RAG) system for the Physical AI & Humanoid Robotics book.",
+  "source": "@site/docs/contracts/rag-data-models.md",
+  "sourceDirName": "contracts",
+  "slug": "/contracts/rag-data-models",
+  "permalink": "/docs/contracts/rag-data-models",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/contracts/rag-data-models.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RAG API Contracts",
+    "permalink": "/docs/contracts/rag-api-contracts"
+  },
+  "next": {
+    "title": "RAG Error Handling",
+    "permalink": "/docs/contracts/rag-error-handling"
+  }
+}

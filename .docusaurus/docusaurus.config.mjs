@@ -4,11 +4,11 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "AI/Spec-Driven Book: Physical AI & Humanoid Robotics",
+  "title": "Physical AI & Humanoid Robotics",
   "tagline": "Hands-on learning of Physical AI and humanoid robotics",
   "favicon": "img/favicon.ico",
   "url": "https://your-username.github.io",
-  "baseUrl": "/ai-robotic-book/",
+  "baseUrl": "/",
   "organizationName": "your-username",
   "projectName": "ai-robotic-book",
   "onBrokenLinks": "throw",
@@ -35,13 +35,17 @@ export default {
       }
     ]
   ],
+  "themes": [],
+  "plugins": [
+    null
+  ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
       "title": "AI Robotics Book",
       "logo": {
         "alt": "AI Robotics Book Logo",
-        "src": "img/logo.svg"
+        "src": "img/book.png"
       },
       "items": [
         {
@@ -51,7 +55,7 @@ export default {
           "label": "Book"
         },
         {
-          "href": "https://github.com/your-username/ai-robotic-book",
+          "href": "https://github.com/SyedBabarMehmoodZaidi",
           "label": "GitHub",
           "position": "right"
         }
@@ -74,16 +78,16 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "label": "Youtube",
+              "href": "https://www.youtube.com/@BabarBamsi90"
             },
             {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "label": "Linkedin",
+              "href": "https://www.linkedin.com/in/syed-babar-255b0221b/"
             },
             {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "label": "Instagram",
+              "href": "https://www.instagram.com/babar_zaidy/"
             }
           ]
         },
@@ -92,12 +96,12 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/your-username/ai-robotic-book"
+              "href": "https://github.com/SyedBabarMehmoodZaidi"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2025 AI/Spec-Driven Book Project. Built with Docusaurus."
+      "copyright": "Copyright © 2025 Physical AI & Humanoid Robotics Book Project."
     },
     "prism": {
       "theme": {
@@ -328,8 +332,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
-  "themes": [],
   "scripts": [],
   "headTags": [],
   "stylesheets": [],

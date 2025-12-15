@@ -2,7 +2,11 @@
 sidebar_position: 1
 ---
 
+import QueryInterface from '@site/src/components/QueryInterface/QueryInterface';
+
 # Module 4: Vision-Language-Action (VLA)
+
+<QueryInterface />
 
 ## Learning Objectives
 

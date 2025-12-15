@@ -5,7 +5,7 @@
   "source": "@site/docs/glossary.md",
   "sourceDirName": ".",
   "slug": "/glossary",
-  "permalink": "/ai-robotic-book/docs/glossary",
+  "permalink": "/docs/glossary",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/glossary.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "References",
-    "permalink": "/ai-robotic-book/docs/references"
+    "permalink": "/docs/references"
   },
   "next": {
     "title": "Conclusion and Future Directions",
-    "permalink": "/ai-robotic-book/docs/conclusion"
+    "permalink": "/docs/conclusion"
   }
 }
