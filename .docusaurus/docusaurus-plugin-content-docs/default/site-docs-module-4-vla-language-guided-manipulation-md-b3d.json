@@ -5,7 +5,7 @@
   "source": "@site/docs/module-4-vla/language-guided-manipulation.md",
   "sourceDirName": "module-4-vla",
   "slug": "/module-4-vla/language-guided-manipulation",
-  "permalink": "/ai-robotic-book/docs/module-4-vla/language-guided-manipulation",
+  "permalink": "/docs/module-4-vla/language-guided-manipulation",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-4-vla/language-guided-manipulation.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Multimodal Perception: Vision-Language Integration",
-    "permalink": "/ai-robotic-book/docs/module-4-vla/multimodal-perception"
+    "permalink": "/docs/module-4-vla/multimodal-perception"
   },
   "next": {
     "title": "VLA System Integration: End-to-End Implementation",
-    "permalink": "/ai-robotic-book/docs/module-4-vla/vla-system-integration"
+    "permalink": "/docs/module-4-vla/vla-system-integration"
   }
 }

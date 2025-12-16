@@ -5,7 +5,7 @@
   "source": "@site/docs/appendices/installation-guide.md",
   "sourceDirName": "appendices",
   "slug": "/appendices/installation-guide",
-  "permalink": "/ai-robotic-book/docs/appendices/installation-guide",
+  "permalink": "/docs/appendices/installation-guide",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/appendices/installation-guide.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Hardware Requirements",
-    "permalink": "/ai-robotic-book/docs/appendices/hardware-requirements"
+    "permalink": "/docs/appendices/hardware-requirements"
   },
   "next": {
     "title": "Troubleshooting",
-    "permalink": "/ai-robotic-book/docs/appendices/troubleshooting"
+    "permalink": "/docs/appendices/troubleshooting"
   }
 }

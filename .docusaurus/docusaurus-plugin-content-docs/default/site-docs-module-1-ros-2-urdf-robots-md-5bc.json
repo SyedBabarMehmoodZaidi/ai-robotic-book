@@ -5,7 +5,7 @@
   "source": "@site/docs/module-1-ros2/urdf-robots.md",
   "sourceDirName": "module-1-ros2",
   "slug": "/module-1-ros2/urdf-robots",
-  "permalink": "/ai-robotic-book/docs/module-1-ros2/urdf-robots",
+  "permalink": "/docs/module-1-ros2/urdf-robots",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-1-ros2/urdf-robots.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Python Agent Integration with ROS Controllers using rclpy",
-    "permalink": "/ai-robotic-book/docs/module-1-ros2/python-integration"
+    "permalink": "/docs/module-1-ros2/python-integration"
   },
   "next": {
     "title": "ROS 2 Packages, Launch Files, and Parameter Management",
-    "permalink": "/ai-robotic-book/docs/module-1-ros2/packages-management"
+    "permalink": "/docs/module-1-ros2/packages-management"
   }
 }

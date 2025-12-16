@@ -1,157 +1,200 @@
 {
-  "/ai-robotic-book/markdown-page-6d4": {
-    "__comp": "1f391b9e",
+  "/__docusaurus/debug-35b": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "8be7f145"
-    },
-    "content": "393be207"
-  },
-  "/ai-robotic-book/docs-c6b": {
-    "__comp": "5e95c892",
-    "__context": {
-      "plugin": "6a5b1405"
+      "plugin": "plugin---docusaurus-debug-877-e25"
     }
   },
-  "/ai-robotic-book/docs-493": {
-    "__comp": "a7bd4aaa",
-    "version": "935f2afb"
-  },
-  "/ai-robotic-book/docs-2fb": {
-    "__comp": "a94703ab"
-  },
-  "/ai-robotic-book/docs/appendices/hardware-requirements-724": {
-    "__comp": "17896441",
-    "content": "ff2fc884"
-  },
-  "/ai-robotic-book/docs/appendices/installation-guide-a2f": {
-    "__comp": "17896441",
-    "content": "92535679"
-  },
-  "/ai-robotic-book/docs/appendices/troubleshooting-363": {
-    "__comp": "17896441",
-    "content": "bd6d8672"
-  },
-  "/ai-robotic-book/docs/capstone-project-b0c": {
-    "__comp": "17896441",
-    "content": "7bd3979a"
-  },
-  "/ai-robotic-book/docs/conclusion-b0b": {
-    "__comp": "17896441",
-    "content": "85be18e3"
-  },
-  "/ai-robotic-book/docs/glossary-974": {
-    "__comp": "17896441",
-    "content": "e747ec83"
-  },
-  "/ai-robotic-book/docs/intro-427": {
-    "__comp": "17896441",
-    "content": "0e384e19"
-  },
-  "/ai-robotic-book/docs/module-1-ros2/-3b3": {
-    "__comp": "17896441",
-    "content": "4dd5b0c3"
-  },
-  "/ai-robotic-book/docs/module-1-ros2/architecture-8f6": {
-    "__comp": "17896441",
-    "content": "495f1a83"
-  },
-  "/ai-robotic-book/docs/module-1-ros2/exercises-02c": {
-    "__comp": "17896441",
-    "content": "124df349"
-  },
-  "/ai-robotic-book/docs/module-1-ros2/packages-management-908": {
-    "__comp": "17896441",
-    "content": "a3c0de77"
-  },
-  "/ai-robotic-book/docs/module-1-ros2/python-integration-b6c": {
-    "__comp": "17896441",
-    "content": "013dec0f"
-  },
-  "/ai-robotic-book/docs/module-1-ros2/urdf-robots-8f4": {
-    "__comp": "17896441",
-    "content": "5bcc5172"
-  },
-  "/ai-robotic-book/docs/module-2-digital-twin/-c9c": {
-    "__comp": "17896441",
-    "content": "8113467f"
-  },
-  "/ai-robotic-book/docs/module-2-digital-twin/exercises-63c": {
-    "__comp": "17896441",
-    "content": "64c84782"
-  },
-  "/ai-robotic-book/docs/module-2-digital-twin/gazebo-setup-dfd": {
-    "__comp": "17896441",
-    "content": "7282923a"
-  },
-  "/ai-robotic-book/docs/module-2-digital-twin/sensor-simulation-7b2": {
-    "__comp": "17896441",
-    "content": "3a7a8a21"
-  },
-  "/ai-robotic-book/docs/module-2-digital-twin/unity-simulation-d40": {
-    "__comp": "17896441",
-    "content": "4492d8ee"
-  },
-  "/ai-robotic-book/docs/module-2-digital-twin/urdf-sdf-formats-f47": {
-    "__comp": "17896441",
-    "content": "1170bb4f"
-  },
-  "/ai-robotic-book/docs/module-3-ai-robot-brain/-5d1": {
-    "__comp": "17896441",
-    "content": "8c650429"
-  },
-  "/ai-robotic-book/docs/module-3-ai-robot-brain/exercises-7ce": {
-    "__comp": "17896441",
-    "content": "8b25a6a5"
-  },
-  "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-ros-vslam-5eb": {
-    "__comp": "17896441",
-    "content": "18158b72"
-  },
-  "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-sim-setup-498": {
-    "__comp": "17896441",
-    "content": "a72de6d2"
-  },
-  "/ai-robotic-book/docs/module-3-ai-robot-brain/nav2-path-planning-ade": {
-    "__comp": "17896441",
-    "content": "f25ef4ed"
-  },
-  "/ai-robotic-book/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion-79a": {
-    "__comp": "17896441",
-    "content": "cdda4130"
-  },
-  "/ai-robotic-book/docs/module-4-vla/-6c1": {
-    "__comp": "17896441",
-    "content": "4a90598f"
-  },
-  "/ai-robotic-book/docs/module-4-vla/exercises-2c9": {
-    "__comp": "17896441",
-    "content": "eb5b4b6e"
-  },
-  "/ai-robotic-book/docs/module-4-vla/language-guided-manipulation-26f": {
-    "__comp": "17896441",
-    "content": "b3d572a9"
-  },
-  "/ai-robotic-book/docs/module-4-vla/multimodal-perception-03d": {
-    "__comp": "17896441",
-    "content": "71a36338"
-  },
-  "/ai-robotic-book/docs/module-4-vla/vla-architecture-ac8": {
-    "__comp": "17896441",
-    "content": "7516a58a"
-  },
-  "/ai-robotic-book/docs/module-4-vla/vla-system-integration-b19": {
-    "__comp": "17896441",
-    "content": "45ae2d14"
-  },
-  "/ai-robotic-book/docs/references-515": {
-    "__comp": "17896441",
-    "content": "33a69f45"
-  },
-  "/ai-robotic-book/-729": {
-    "__comp": "1df93b7f",
+  "/__docusaurus/debug/config-176": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "8be7f145"
+      "plugin": "plugin---docusaurus-debug-877-e25"
+    }
+  },
+  "/__docusaurus/debug/content-b49": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-877-e25"
     },
-    "config": "5e9f5e1a"
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-746": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-877-e25"
+    }
+  },
+  "/__docusaurus/debug/metadata-6ba": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-877-e25"
+    }
+  },
+  "/__docusaurus/debug/registry-669": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-877-e25"
+    }
+  },
+  "/__docusaurus/debug/routes-5ce": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-877-e25"
+    }
+  },
+  "/markdown-page-e16": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-page-8-be-3c7"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/docs-066": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docs-6-a-5-c2d"
+    }
+  },
+  "/docs-947": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---docs-935-398"
+  },
+  "/docs-c91": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/appendices/hardware-requirements-7d2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-appendices-hardware-requirementsff-2-25e"
+  },
+  "/docs/appendices/installation-guide-052": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-appendices-installation-guide-925-98c"
+  },
+  "/docs/appendices/troubleshooting-11d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-appendices-troubleshootingbd-6-c27"
+  },
+  "/docs/capstone-project-44f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-capstone-project-7-bd-bda"
+  },
+  "/docs/conclusion-187": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-conclusion-85-b-e0a"
+  },
+  "/docs/glossary-be2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-glossarye-74-cec"
+  },
+  "/docs/intro-aed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/module-1-ros2/-fb1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-4-dd-adb"
+  },
+  "/docs/module-1-ros2/architecture-e2c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-architecture-495-4bb"
+  },
+  "/docs/module-1-ros2/exercises-bf4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-exercises-124-3d2"
+  },
+  "/docs/module-1-ros2/packages-management-7b8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-packages-managementa-3-c-4c2"
+  },
+  "/docs/module-1-ros2/python-integration-7c6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-python-integration-013-3d2"
+  },
+  "/docs/module-1-ros2/urdf-robots-00a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-urdf-robots-5-bc-3cd"
+  },
+  "/docs/module-2-digital-twin/-1dd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-811-635"
+  },
+  "/docs/module-2-digital-twin/exercises-ffc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-exercises-64-c-f8c"
+  },
+  "/docs/module-2-digital-twin/gazebo-setup-095": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-gazebo-setup-728-703"
+  },
+  "/docs/module-2-digital-twin/sensor-simulation-cbc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-sensor-simulation-3-a-7-84f"
+  },
+  "/docs/module-2-digital-twin/unity-simulation-5fd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-unity-simulation-449-dba"
+  },
+  "/docs/module-2-digital-twin/urdf-sdf-formats-dee": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-urdf-sdf-formats-117-73c"
+  },
+  "/docs/module-3-ai-robot-brain/-ee8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-8-c-6-81d"
+  },
+  "/docs/module-3-ai-robot-brain/exercises-e22": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-exercises-8-b-2-e4e"
+  },
+  "/docs/module-3-ai-robot-brain/isaac-ros-vslam-c8b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-isaac-ros-vslam-181-56b"
+  },
+  "/docs/module-3-ai-robot-brain/isaac-sim-setup-134": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-isaac-sim-setupa-72-5ef"
+  },
+  "/docs/module-3-ai-robot-brain/nav2-path-planning-262": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-nav-2-path-planningf-25-707"
+  },
+  "/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion-4e7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-reinforcement-learning-locomotioncdd-13f"
+  },
+  "/docs/module-4-vla/-375": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vla-4-a-9-925"
+  },
+  "/docs/module-4-vla/exercises-cf9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vla-exerciseseb-5-d8c"
+  },
+  "/docs/module-4-vla/language-guided-manipulation-bd5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vla-language-guided-manipulationb-3-d-7fb"
+  },
+  "/docs/module-4-vla/multimodal-perception-c6d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vla-multimodal-perception-71-a-dda"
+  },
+  "/docs/module-4-vla/vla-architecture-214": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vla-vla-architecture-751-6c4"
+  },
+  "/docs/module-4-vla/vla-system-integration-478": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vla-vla-system-integration-45-a-cfc"
+  },
+  "/docs/references-d1a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-references-33-a-ca4"
+  },
+  "/-896": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---markdown-page-8-be-3c7"
+    },
+    "config": "config---5-e-9-4f3"
   }
 }

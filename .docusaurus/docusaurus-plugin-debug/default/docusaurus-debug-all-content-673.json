@@ -9,8 +9,8 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/ai-robotic-book/docs",
-          "tagsPath": "/ai-robotic-book/docs/tags",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
           "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs",
           "editUrlLocalized": "https://github.com/your-username/ai-robotic-book/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
@@ -26,7 +26,7 @@
               "source": "@site/docs/appendices/hardware-requirements.md",
               "sourceDirName": "appendices",
               "slug": "/appendices/hardware-requirements",
-              "permalink": "/ai-robotic-book/docs/appendices/hardware-requirements",
+              "permalink": "/docs/appendices/hardware-requirements",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/appendices/hardware-requirements.md",
@@ -39,11 +39,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Capstone Project: Integrated AI-Powered Humanoid Robot",
-                "permalink": "/ai-robotic-book/docs/capstone-project"
+                "permalink": "/docs/capstone-project"
               },
               "next": {
                 "title": "Installation Guide",
-                "permalink": "/ai-robotic-book/docs/appendices/installation-guide"
+                "permalink": "/docs/appendices/installation-guide"
               }
             },
             {
@@ -53,7 +53,7 @@
               "source": "@site/docs/appendices/installation-guide.md",
               "sourceDirName": "appendices",
               "slug": "/appendices/installation-guide",
-              "permalink": "/ai-robotic-book/docs/appendices/installation-guide",
+              "permalink": "/docs/appendices/installation-guide",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/appendices/installation-guide.md",
@@ -66,11 +66,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Hardware Requirements",
-                "permalink": "/ai-robotic-book/docs/appendices/hardware-requirements"
+                "permalink": "/docs/appendices/hardware-requirements"
               },
               "next": {
                 "title": "Troubleshooting",
-                "permalink": "/ai-robotic-book/docs/appendices/troubleshooting"
+                "permalink": "/docs/appendices/troubleshooting"
               }
             },
             {
@@ -80,7 +80,7 @@
               "source": "@site/docs/appendices/troubleshooting.md",
               "sourceDirName": "appendices",
               "slug": "/appendices/troubleshooting",
-              "permalink": "/ai-robotic-book/docs/appendices/troubleshooting",
+              "permalink": "/docs/appendices/troubleshooting",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/appendices/troubleshooting.md",
@@ -93,11 +93,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Installation Guide",
-                "permalink": "/ai-robotic-book/docs/appendices/installation-guide"
+                "permalink": "/docs/appendices/installation-guide"
               },
               "next": {
                 "title": "References",
-                "permalink": "/ai-robotic-book/docs/references"
+                "permalink": "/docs/references"
               }
             },
             {
@@ -107,7 +107,7 @@
               "source": "@site/docs/capstone-project.md",
               "sourceDirName": ".",
               "slug": "/capstone-project",
-              "permalink": "/ai-robotic-book/docs/capstone-project",
+              "permalink": "/docs/capstone-project",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/capstone-project.md",
@@ -120,11 +120,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 4 Exercises: Vision-Language-Action Integration",
-                "permalink": "/ai-robotic-book/docs/module-4-vla/exercises"
+                "permalink": "/docs/module-4-vla/exercises"
               },
               "next": {
                 "title": "Hardware Requirements",
-                "permalink": "/ai-robotic-book/docs/appendices/hardware-requirements"
+                "permalink": "/docs/appendices/hardware-requirements"
               }
             },
             {
@@ -134,7 +134,7 @@
               "source": "@site/docs/conclusion.md",
               "sourceDirName": ".",
               "slug": "/conclusion",
-              "permalink": "/ai-robotic-book/docs/conclusion",
+              "permalink": "/docs/conclusion",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/conclusion.md",
@@ -147,7 +147,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Glossary",
-                "permalink": "/ai-robotic-book/docs/glossary"
+                "permalink": "/docs/glossary"
               }
             },
             {
@@ -157,7 +157,7 @@
               "source": "@site/docs/glossary.md",
               "sourceDirName": ".",
               "slug": "/glossary",
-              "permalink": "/ai-robotic-book/docs/glossary",
+              "permalink": "/docs/glossary",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/glossary.md",
@@ -167,11 +167,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "References",
-                "permalink": "/ai-robotic-book/docs/references"
+                "permalink": "/docs/references"
               },
               "next": {
                 "title": "Conclusion and Future Directions",
-                "permalink": "/ai-robotic-book/docs/conclusion"
+                "permalink": "/docs/conclusion"
               }
             },
             {
@@ -181,7 +181,7 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/ai-robotic-book/docs/intro",
+              "permalink": "/docs/intro",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/intro.md",
@@ -194,7 +194,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Module 1: The Robotic Nervous System (ROS 2)",
-                "permalink": "/ai-robotic-book/docs/module-1-ros2/"
+                "permalink": "/docs/module-1-ros2/"
               }
             },
             {
@@ -204,7 +204,7 @@
               "source": "@site/docs/module-1-ros2/architecture.md",
               "sourceDirName": "module-1-ros2",
               "slug": "/module-1-ros2/architecture",
-              "permalink": "/ai-robotic-book/docs/module-1-ros2/architecture",
+              "permalink": "/docs/module-1-ros2/architecture",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-1-ros2/architecture.md",
@@ -217,11 +217,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 1: The Robotic Nervous System (ROS 2)",
-                "permalink": "/ai-robotic-book/docs/module-1-ros2/"
+                "permalink": "/docs/module-1-ros2/"
               },
               "next": {
                 "title": "Python Agent Integration with ROS Controllers using rclpy",
-                "permalink": "/ai-robotic-book/docs/module-1-ros2/python-integration"
+                "permalink": "/docs/module-1-ros2/python-integration"
               }
             },
             {
@@ -231,7 +231,7 @@
               "source": "@site/docs/module-1-ros2/exercises.md",
               "sourceDirName": "module-1-ros2",
               "slug": "/module-1-ros2/exercises",
-              "permalink": "/ai-robotic-book/docs/module-1-ros2/exercises",
+              "permalink": "/docs/module-1-ros2/exercises",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-1-ros2/exercises.md",
@@ -244,11 +244,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "ROS 2 Packages, Launch Files, and Parameter Management",
-                "permalink": "/ai-robotic-book/docs/module-1-ros2/packages-management"
+                "permalink": "/docs/module-1-ros2/packages-management"
               },
               "next": {
                 "title": "Module 2: The Digital Twin (Gazebo & Unity)",
-                "permalink": "/ai-robotic-book/docs/module-2-digital-twin/"
+                "permalink": "/docs/module-2-digital-twin/"
               }
             },
             {
@@ -258,7 +258,7 @@
               "source": "@site/docs/module-1-ros2/index.md",
               "sourceDirName": "module-1-ros2",
               "slug": "/module-1-ros2/",
-              "permalink": "/ai-robotic-book/docs/module-1-ros2/",
+              "permalink": "/docs/module-1-ros2/",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-1-ros2/index.md",
@@ -271,11 +271,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introduction to Physical AI & Humanoid Robotics",
-                "permalink": "/ai-robotic-book/docs/intro"
+                "permalink": "/docs/intro"
               },
               "next": {
                 "title": "ROS 2 Architecture: Nodes, Topics, Services, and Actions",
-                "permalink": "/ai-robotic-book/docs/module-1-ros2/architecture"
+                "permalink": "/docs/module-1-ros2/architecture"
               }
             },
             {
@@ -285,7 +285,7 @@
               "source": "@site/docs/module-1-ros2/packages-management.md",
               "sourceDirName": "module-1-ros2",
               "slug": "/module-1-ros2/packages-management",
-              "permalink": "/ai-robotic-book/docs/module-1-ros2/packages-management",
+              "permalink": "/docs/module-1-ros2/packages-management",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-1-ros2/packages-management.md",
@@ -298,11 +298,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "URDF for Humanoid Robots",
-                "permalink": "/ai-robotic-book/docs/module-1-ros2/urdf-robots"
+                "permalink": "/docs/module-1-ros2/urdf-robots"
               },
               "next": {
                 "title": "Module 1 Exercises: ROS 2 Fundamentals",
-                "permalink": "/ai-robotic-book/docs/module-1-ros2/exercises"
+                "permalink": "/docs/module-1-ros2/exercises"
               }
             },
             {
@@ -312,7 +312,7 @@
               "source": "@site/docs/module-1-ros2/python-integration.md",
               "sourceDirName": "module-1-ros2",
               "slug": "/module-1-ros2/python-integration",
-              "permalink": "/ai-robotic-book/docs/module-1-ros2/python-integration",
+              "permalink": "/docs/module-1-ros2/python-integration",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-1-ros2/python-integration.md",
@@ -325,11 +325,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "ROS 2 Architecture: Nodes, Topics, Services, and Actions",
-                "permalink": "/ai-robotic-book/docs/module-1-ros2/architecture"
+                "permalink": "/docs/module-1-ros2/architecture"
               },
               "next": {
                 "title": "URDF for Humanoid Robots",
-                "permalink": "/ai-robotic-book/docs/module-1-ros2/urdf-robots"
+                "permalink": "/docs/module-1-ros2/urdf-robots"
               }
             },
             {
@@ -339,7 +339,7 @@
               "source": "@site/docs/module-1-ros2/urdf-robots.md",
               "sourceDirName": "module-1-ros2",
               "slug": "/module-1-ros2/urdf-robots",
-              "permalink": "/ai-robotic-book/docs/module-1-ros2/urdf-robots",
+              "permalink": "/docs/module-1-ros2/urdf-robots",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-1-ros2/urdf-robots.md",
@@ -352,11 +352,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Python Agent Integration with ROS Controllers using rclpy",
-                "permalink": "/ai-robotic-book/docs/module-1-ros2/python-integration"
+                "permalink": "/docs/module-1-ros2/python-integration"
               },
               "next": {
                 "title": "ROS 2 Packages, Launch Files, and Parameter Management",
-                "permalink": "/ai-robotic-book/docs/module-1-ros2/packages-management"
+                "permalink": "/docs/module-1-ros2/packages-management"
               }
             },
             {
@@ -366,7 +366,7 @@
               "source": "@site/docs/module-2-digital-twin/exercises.md",
               "sourceDirName": "module-2-digital-twin",
               "slug": "/module-2-digital-twin/exercises",
-              "permalink": "/ai-robotic-book/docs/module-2-digital-twin/exercises",
+              "permalink": "/docs/module-2-digital-twin/exercises",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-2-digital-twin/exercises.md",
@@ -379,11 +379,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Sensor Simulation: LiDAR, Depth Cameras, and IMUs",
-                "permalink": "/ai-robotic-book/docs/module-2-digital-twin/sensor-simulation"
+                "permalink": "/docs/module-2-digital-twin/sensor-simulation"
               },
               "next": {
                 "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac)",
-                "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/"
+                "permalink": "/docs/module-3-ai-robot-brain/"
               }
             },
             {
@@ -393,7 +393,7 @@
               "source": "@site/docs/module-2-digital-twin/gazebo-setup.md",
               "sourceDirName": "module-2-digital-twin",
               "slug": "/module-2-digital-twin/gazebo-setup",
-              "permalink": "/ai-robotic-book/docs/module-2-digital-twin/gazebo-setup",
+              "permalink": "/docs/module-2-digital-twin/gazebo-setup",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-2-digital-twin/gazebo-setup.md",
@@ -406,11 +406,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 2: The Digital Twin (Gazebo & Unity)",
-                "permalink": "/ai-robotic-book/docs/module-2-digital-twin/"
+                "permalink": "/docs/module-2-digital-twin/"
               },
               "next": {
                 "title": "Unity Simulation: High-Fidelity Visualization and Human-Robot Interaction",
-                "permalink": "/ai-robotic-book/docs/module-2-digital-twin/unity-simulation"
+                "permalink": "/docs/module-2-digital-twin/unity-simulation"
               }
             },
             {
@@ -420,7 +420,7 @@
               "source": "@site/docs/module-2-digital-twin/index.md",
               "sourceDirName": "module-2-digital-twin",
               "slug": "/module-2-digital-twin/",
-              "permalink": "/ai-robotic-book/docs/module-2-digital-twin/",
+              "permalink": "/docs/module-2-digital-twin/",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-2-digital-twin/index.md",
@@ -433,11 +433,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 1 Exercises: ROS 2 Fundamentals",
-                "permalink": "/ai-robotic-book/docs/module-1-ros2/exercises"
+                "permalink": "/docs/module-1-ros2/exercises"
               },
               "next": {
                 "title": "Gazebo Setup: Physics Simulation Environment",
-                "permalink": "/ai-robotic-book/docs/module-2-digital-twin/gazebo-setup"
+                "permalink": "/docs/module-2-digital-twin/gazebo-setup"
               }
             },
             {
@@ -447,7 +447,7 @@
               "source": "@site/docs/module-2-digital-twin/sensor-simulation.md",
               "sourceDirName": "module-2-digital-twin",
               "slug": "/module-2-digital-twin/sensor-simulation",
-              "permalink": "/ai-robotic-book/docs/module-2-digital-twin/sensor-simulation",
+              "permalink": "/docs/module-2-digital-twin/sensor-simulation",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-2-digital-twin/sensor-simulation.md",
@@ -460,11 +460,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "URDF/SDF Formats: Robot Description and Simulation Formats",
-                "permalink": "/ai-robotic-book/docs/module-2-digital-twin/urdf-sdf-formats"
+                "permalink": "/docs/module-2-digital-twin/urdf-sdf-formats"
               },
               "next": {
                 "title": "Module 2 Exercises: Digital Twin Implementation",
-                "permalink": "/ai-robotic-book/docs/module-2-digital-twin/exercises"
+                "permalink": "/docs/module-2-digital-twin/exercises"
               }
             },
             {
@@ -474,7 +474,7 @@
               "source": "@site/docs/module-2-digital-twin/unity-simulation.md",
               "sourceDirName": "module-2-digital-twin",
               "slug": "/module-2-digital-twin/unity-simulation",
-              "permalink": "/ai-robotic-book/docs/module-2-digital-twin/unity-simulation",
+              "permalink": "/docs/module-2-digital-twin/unity-simulation",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-2-digital-twin/unity-simulation.md",
@@ -487,11 +487,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Gazebo Setup: Physics Simulation Environment",
-                "permalink": "/ai-robotic-book/docs/module-2-digital-twin/gazebo-setup"
+                "permalink": "/docs/module-2-digital-twin/gazebo-setup"
               },
               "next": {
                 "title": "URDF/SDF Formats: Robot Description and Simulation Formats",
-                "permalink": "/ai-robotic-book/docs/module-2-digital-twin/urdf-sdf-formats"
+                "permalink": "/docs/module-2-digital-twin/urdf-sdf-formats"
               }
             },
             {
@@ -501,7 +501,7 @@
               "source": "@site/docs/module-2-digital-twin/urdf-sdf-formats.md",
               "sourceDirName": "module-2-digital-twin",
               "slug": "/module-2-digital-twin/urdf-sdf-formats",
-              "permalink": "/ai-robotic-book/docs/module-2-digital-twin/urdf-sdf-formats",
+              "permalink": "/docs/module-2-digital-twin/urdf-sdf-formats",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-2-digital-twin/urdf-sdf-formats.md",
@@ -514,11 +514,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Unity Simulation: High-Fidelity Visualization and Human-Robot Interaction",
-                "permalink": "/ai-robotic-book/docs/module-2-digital-twin/unity-simulation"
+                "permalink": "/docs/module-2-digital-twin/unity-simulation"
               },
               "next": {
                 "title": "Sensor Simulation: LiDAR, Depth Cameras, and IMUs",
-                "permalink": "/ai-robotic-book/docs/module-2-digital-twin/sensor-simulation"
+                "permalink": "/docs/module-2-digital-twin/sensor-simulation"
               }
             },
             {
@@ -528,7 +528,7 @@
               "source": "@site/docs/module-3-ai-robot-brain/exercises.md",
               "sourceDirName": "module-3-ai-robot-brain",
               "slug": "/module-3-ai-robot-brain/exercises",
-              "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/exercises",
+              "permalink": "/docs/module-3-ai-robot-brain/exercises",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-3-ai-robot-brain/exercises.md",
@@ -541,11 +541,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Reinforcement Learning for Locomotion: AI-Driven Movement Control",
-                "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion"
+                "permalink": "/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion"
               },
               "next": {
                 "title": "Module 4: Vision-Language-Action (VLA)",
-                "permalink": "/ai-robotic-book/docs/module-4-vla/"
+                "permalink": "/docs/module-4-vla/"
               }
             },
             {
@@ -555,7 +555,7 @@
               "source": "@site/docs/module-3-ai-robot-brain/index.md",
               "sourceDirName": "module-3-ai-robot-brain",
               "slug": "/module-3-ai-robot-brain/",
-              "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/",
+              "permalink": "/docs/module-3-ai-robot-brain/",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-3-ai-robot-brain/index.md",
@@ -568,11 +568,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 2 Exercises: Digital Twin Implementation",
-                "permalink": "/ai-robotic-book/docs/module-2-digital-twin/exercises"
+                "permalink": "/docs/module-2-digital-twin/exercises"
               },
               "next": {
                 "title": "NVIDIA Isaac Sim Setup: AI-Powered Simulation Environment",
-                "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-sim-setup"
+                "permalink": "/docs/module-3-ai-robot-brain/isaac-sim-setup"
               }
             },
             {
@@ -582,7 +582,7 @@
               "source": "@site/docs/module-3-ai-robot-brain/isaac-ros-vslam.md",
               "sourceDirName": "module-3-ai-robot-brain",
               "slug": "/module-3-ai-robot-brain/isaac-ros-vslam",
-              "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-ros-vslam",
+              "permalink": "/docs/module-3-ai-robot-brain/isaac-ros-vslam",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-3-ai-robot-brain/isaac-ros-vslam.md",
@@ -595,11 +595,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "NVIDIA Isaac Sim Setup: AI-Powered Simulation Environment",
-                "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-sim-setup"
+                "permalink": "/docs/module-3-ai-robot-brain/isaac-sim-setup"
               },
               "next": {
                 "title": "Nav2 Path Planning: Advanced Navigation and Autonomous Movement",
-                "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/nav2-path-planning"
+                "permalink": "/docs/module-3-ai-robot-brain/nav2-path-planning"
               }
             },
             {
@@ -609,7 +609,7 @@
               "source": "@site/docs/module-3-ai-robot-brain/isaac-sim-setup.md",
               "sourceDirName": "module-3-ai-robot-brain",
               "slug": "/module-3-ai-robot-brain/isaac-sim-setup",
-              "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-sim-setup",
+              "permalink": "/docs/module-3-ai-robot-brain/isaac-sim-setup",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-3-ai-robot-brain/isaac-sim-setup.md",
@@ -622,11 +622,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac)",
-                "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/"
+                "permalink": "/docs/module-3-ai-robot-brain/"
               },
               "next": {
                 "title": "Isaac ROS Integration: GPU-Accelerated Perception and VSLAM",
-                "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-ros-vslam"
+                "permalink": "/docs/module-3-ai-robot-brain/isaac-ros-vslam"
               }
             },
             {
@@ -636,7 +636,7 @@
               "source": "@site/docs/module-3-ai-robot-brain/nav2-path-planning.md",
               "sourceDirName": "module-3-ai-robot-brain",
               "slug": "/module-3-ai-robot-brain/nav2-path-planning",
-              "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/nav2-path-planning",
+              "permalink": "/docs/module-3-ai-robot-brain/nav2-path-planning",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-3-ai-robot-brain/nav2-path-planning.md",
@@ -649,11 +649,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Isaac ROS Integration: GPU-Accelerated Perception and VSLAM",
-                "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/isaac-ros-vslam"
+                "permalink": "/docs/module-3-ai-robot-brain/isaac-ros-vslam"
               },
               "next": {
                 "title": "Reinforcement Learning for Locomotion: AI-Driven Movement Control",
-                "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion"
+                "permalink": "/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion"
               }
             },
             {
@@ -663,7 +663,7 @@
               "source": "@site/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion.md",
               "sourceDirName": "module-3-ai-robot-brain",
               "slug": "/module-3-ai-robot-brain/reinforcement-learning-locomotion",
-              "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion",
+              "permalink": "/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-3-ai-robot-brain/reinforcement-learning-locomotion.md",
@@ -676,11 +676,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Nav2 Path Planning: Advanced Navigation and Autonomous Movement",
-                "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/nav2-path-planning"
+                "permalink": "/docs/module-3-ai-robot-brain/nav2-path-planning"
               },
               "next": {
                 "title": "Module 3 Exercises: AI-Robot Brain Integration",
-                "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/exercises"
+                "permalink": "/docs/module-3-ai-robot-brain/exercises"
               }
             },
             {
@@ -690,7 +690,7 @@
               "source": "@site/docs/module-4-vla/exercises.md",
               "sourceDirName": "module-4-vla",
               "slug": "/module-4-vla/exercises",
-              "permalink": "/ai-robotic-book/docs/module-4-vla/exercises",
+              "permalink": "/docs/module-4-vla/exercises",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-4-vla/exercises.md",
@@ -703,11 +703,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "VLA System Integration: End-to-End Implementation",
-                "permalink": "/ai-robotic-book/docs/module-4-vla/vla-system-integration"
+                "permalink": "/docs/module-4-vla/vla-system-integration"
               },
               "next": {
                 "title": "Capstone Project: Integrated AI-Powered Humanoid Robot",
-                "permalink": "/ai-robotic-book/docs/capstone-project"
+                "permalink": "/docs/capstone-project"
               }
             },
             {
@@ -717,7 +717,7 @@
               "source": "@site/docs/module-4-vla/index.md",
               "sourceDirName": "module-4-vla",
               "slug": "/module-4-vla/",
-              "permalink": "/ai-robotic-book/docs/module-4-vla/",
+              "permalink": "/docs/module-4-vla/",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-4-vla/index.md",
@@ -730,11 +730,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 3 Exercises: AI-Robot Brain Integration",
-                "permalink": "/ai-robotic-book/docs/module-3-ai-robot-brain/exercises"
+                "permalink": "/docs/module-3-ai-robot-brain/exercises"
               },
               "next": {
                 "title": "VLA Architecture: Vision-Language-Action Fundamentals",
-                "permalink": "/ai-robotic-book/docs/module-4-vla/vla-architecture"
+                "permalink": "/docs/module-4-vla/vla-architecture"
               }
             },
             {
@@ -744,7 +744,7 @@
               "source": "@site/docs/module-4-vla/language-guided-manipulation.md",
               "sourceDirName": "module-4-vla",
               "slug": "/module-4-vla/language-guided-manipulation",
-              "permalink": "/ai-robotic-book/docs/module-4-vla/language-guided-manipulation",
+              "permalink": "/docs/module-4-vla/language-guided-manipulation",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-4-vla/language-guided-manipulation.md",
@@ -757,11 +757,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Multimodal Perception: Vision-Language Integration",
-                "permalink": "/ai-robotic-book/docs/module-4-vla/multimodal-perception"
+                "permalink": "/docs/module-4-vla/multimodal-perception"
               },
               "next": {
                 "title": "VLA System Integration: End-to-End Implementation",
-                "permalink": "/ai-robotic-book/docs/module-4-vla/vla-system-integration"
+                "permalink": "/docs/module-4-vla/vla-system-integration"
               }
             },
             {
@@ -771,7 +771,7 @@
               "source": "@site/docs/module-4-vla/multimodal-perception.md",
               "sourceDirName": "module-4-vla",
               "slug": "/module-4-vla/multimodal-perception",
-              "permalink": "/ai-robotic-book/docs/module-4-vla/multimodal-perception",
+              "permalink": "/docs/module-4-vla/multimodal-perception",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-4-vla/multimodal-perception.md",
@@ -784,11 +784,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "VLA Architecture: Vision-Language-Action Fundamentals",
-                "permalink": "/ai-robotic-book/docs/module-4-vla/vla-architecture"
+                "permalink": "/docs/module-4-vla/vla-architecture"
               },
               "next": {
                 "title": "Language-Guided Manipulation: From Commands to Actions",
-                "permalink": "/ai-robotic-book/docs/module-4-vla/language-guided-manipulation"
+                "permalink": "/docs/module-4-vla/language-guided-manipulation"
               }
             },
             {
@@ -798,7 +798,7 @@
               "source": "@site/docs/module-4-vla/vla-architecture.md",
               "sourceDirName": "module-4-vla",
               "slug": "/module-4-vla/vla-architecture",
-              "permalink": "/ai-robotic-book/docs/module-4-vla/vla-architecture",
+              "permalink": "/docs/module-4-vla/vla-architecture",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-4-vla/vla-architecture.md",
@@ -811,11 +811,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 4: Vision-Language-Action (VLA)",
-                "permalink": "/ai-robotic-book/docs/module-4-vla/"
+                "permalink": "/docs/module-4-vla/"
               },
               "next": {
                 "title": "Multimodal Perception: Vision-Language Integration",
-                "permalink": "/ai-robotic-book/docs/module-4-vla/multimodal-perception"
+                "permalink": "/docs/module-4-vla/multimodal-perception"
               }
             },
             {
@@ -825,7 +825,7 @@
               "source": "@site/docs/module-4-vla/vla-system-integration.md",
               "sourceDirName": "module-4-vla",
               "slug": "/module-4-vla/vla-system-integration",
-              "permalink": "/ai-robotic-book/docs/module-4-vla/vla-system-integration",
+              "permalink": "/docs/module-4-vla/vla-system-integration",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/module-4-vla/vla-system-integration.md",
@@ -838,11 +838,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Language-Guided Manipulation: From Commands to Actions",
-                "permalink": "/ai-robotic-book/docs/module-4-vla/language-guided-manipulation"
+                "permalink": "/docs/module-4-vla/language-guided-manipulation"
               },
               "next": {
                 "title": "Module 4 Exercises: Vision-Language-Action Integration",
-                "permalink": "/ai-robotic-book/docs/module-4-vla/exercises"
+                "permalink": "/docs/module-4-vla/exercises"
               }
             },
             {
@@ -852,7 +852,7 @@
               "source": "@site/docs/references.md",
               "sourceDirName": ".",
               "slug": "/references",
-              "permalink": "/ai-robotic-book/docs/references",
+              "permalink": "/docs/references",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/references.md",
@@ -862,11 +862,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Troubleshooting",
-                "permalink": "/ai-robotic-book/docs/appendices/troubleshooting"
+                "permalink": "/docs/appendices/troubleshooting"
               },
               "next": {
                 "title": "Glossary",
-                "permalink": "/ai-robotic-book/docs/glossary"
+                "permalink": "/docs/glossary"
               }
             }
           ],
@@ -1053,7 +1053,7 @@
       "blogPosts": [],
       "blogListPaginated": [],
       "blogTags": {},
-      "blogTagsListPath": "/ai-robotic-book/blog/tags",
+      "blogTagsListPath": "/blog/tags",
       "blogTagsPaginated": []
     }
   },
@@ -1061,12 +1061,12 @@
     "default": [
       {
         "type": "jsx",
-        "permalink": "/ai-robotic-book/",
+        "permalink": "/",
         "source": "@site/src/pages/index.tsx"
       },
       {
         "type": "mdx",
-        "permalink": "/ai-robotic-book/markdown-page",
+        "permalink": "/markdown-page",
         "source": "@site/src/pages/markdown-page.md",
         "title": "Markdown page example",
         "description": "You don't need React to write simple standalone pages.",

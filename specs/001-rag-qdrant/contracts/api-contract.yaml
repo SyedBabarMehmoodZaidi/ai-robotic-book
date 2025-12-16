@@ -1,0 +1,361 @@
+openapi: 3.0.0
+info:
+  title: RAG Qdrant API
+  description: API for content extraction, embedding generation, and vector storage for RAG chatbot
+  version: 1.0.0
+servers:
+  - url: http://localhost:8000
+    description: Local development server
+
+paths:
+  /api/v1/extract:
+    post:
+      summary: Extract content from Docusaurus pages
+      description: Extract clean text content from provided Docusaurus URLs
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                urls:
+                  type: array
+                  items:
+                    type: string
+                    format: uri
+                  description: List of Docusaurus page URLs to extract content from
+                options:
+                  type: object
+                  properties:
+                    include_code_blocks:
+                      type: boolean
+                      default: true
+                    include_headers:
+                      type: boolean
+                      default: true
+      responses:
+        '200':
+          description: Content extraction successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  job_id:
+                    type: string
+                    description: ID of the extraction job
+                  status:
+                    type: string
+                    enum: [success, partial, failed]
+                  extracted_count:
+                    type: integer
+                    description: Number of successfully extracted documents
+                  failed_count:
+                    type: integer
+                    description: Number of failed extractions
+        '400':
+          description: Invalid input parameters
+        '500':
+          description: Server error during extraction
+
+  /api/v1/chunk:
+    post:
+      summary: Chunk extracted content
+      description: Split extracted content into appropriately sized chunks for embedding
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                content_chunks:
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/ContentChunk'
+                chunk_size:
+                  type: integer
+                  default: 300
+                  description: Target number of words per chunk
+                overlap:
+                  type: integer
+                  default: 50
+                  description: Number of words to overlap between chunks
+      responses:
+        '200':
+          description: Content chunking successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  chunks:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/ContentChunk'
+                  total_chunks:
+                    type: integer
+        '400':
+          description: Invalid input parameters
+        '500':
+          description: Server error during chunking
+
+  /api/v1/embeddings:
+    post:
+      summary: Generate embeddings for content chunks
+      description: Generate vector embeddings using Cohere API for provided content chunks
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                chunks:
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/ContentChunk'
+                model:
+                  type: string
+                  default: "cohere-embed-multilingual-v3.0"
+                  description: Cohere embedding model to use
+      responses:
+        '200':
+          description: Embeddings generated successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  embeddings:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/EmbeddingVector'
+                  processed_count:
+                    type: integer
+        '400':
+          description: Invalid input parameters
+        '500':
+          description: Server error during embedding generation
+
+  /api/v1/storage:
+    post:
+      summary: Store embeddings in Qdrant
+      description: Store generated embeddings in Qdrant vector database with metadata
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                embeddings:
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/EmbeddingVector'
+                collection_name:
+                  type: string
+                  default: "book_embeddings"
+                  description: Name of the Qdrant collection to store embeddings
+      responses:
+        '200':
+          description: Embeddings stored successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  stored_count:
+                    type: integer
+                    description: Number of embeddings successfully stored
+                  collection_name:
+                    type: string
+                    description: Name of the collection where embeddings were stored
+        '400':
+          description: Invalid input parameters
+        '500':
+          description: Server error during storage
+
+  /api/v1/search:
+    post:
+      summary: Semantic search in stored embeddings
+      description: Perform semantic search against stored embeddings in Qdrant
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+                  description: Search query text
+                top_k:
+                  type: integer
+                  default: 5
+                  description: Number of results to return
+                collection_name:
+                  type: string
+                  default: "book_embeddings"
+                  description: Name of the Qdrant collection to search
+      responses:
+        '200':
+          description: Search completed successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  results:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        content:
+                          type: string
+                          description: Retrieved content chunk
+                        score:
+                          type: number
+                          format: float
+                          description: Similarity score
+                        metadata:
+                          type: object
+                          description: Content metadata including source URL and document info
+                  total_results:
+                    type: integer
+        '400':
+          description: Invalid input parameters
+        '500':
+          description: Server error during search
+
+  /api/v1/status/{job_id}:
+    get:
+      summary: Get processing job status
+      description: Check the status of a content processing job
+      parameters:
+        - name: job_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Job status retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProcessingJob'
+        '404':
+          description: Job not found
+
+components:
+  schemas:
+    ContentChunk:
+      type: object
+      properties:
+        chunk_id:
+          type: string
+          description: Unique identifier for the content chunk
+        content:
+          type: string
+          description: The actual text content of the chunk
+        source_document_id:
+          type: string
+          description: Reference to the original document
+        position:
+          type: integer
+          description: Sequential position within the source document
+        word_count:
+          type: integer
+          description: Number of words in the chunk
+      required:
+        - content
+        - source_document_id
+        - position
+
+    EmbeddingVector:
+      type: object
+      properties:
+        embedding_id:
+          type: string
+          description: Unique identifier for the embedding
+        vector:
+          type: array
+          items:
+            type: number
+          description: Array of numerical values representing the embedding
+        chunk_id:
+          type: string
+          description: Reference to the source content chunk
+        model_name:
+          type: string
+          description: Name of the embedding model used
+      required:
+        - vector
+        - chunk_id
+        - model_name
+
+    DocumentMetadata:
+      type: object
+      properties:
+        document_id:
+          type: string
+          description: Unique identifier for the document
+        url:
+          type: string
+          format: uri
+          description: Public URL of the Docusaurus page
+        title:
+          type: string
+          description: Title of the document
+        source_type:
+          type: string
+          description: Type of source (e.g., "docusaurus-page")
+        processing_status:
+          type: string
+          enum: [pending, extracted, embedded, stored]
+          description: Current status of processing
+      required:
+        - document_id
+        - url
+        - title
+
+    ProcessingJob:
+      type: object
+      properties:
+        job_id:
+          type: string
+          description: Unique identifier for the processing job
+        status:
+          type: string
+          enum: [running, completed, failed]
+          description: Current status of the job
+        total_documents:
+          type: integer
+          description: Number of documents to process
+        processed_documents:
+          type: integer
+          description: Number of documents processed
+        failed_documents:
+          type: integer
+          description: Number of documents that failed processing
+        start_time:
+          type: string
+          format: date-time
+          description: When the job started
+        end_time:
+          type: string
+          format: date-time
+          description: When the job completed
+        error_log:
+          type: array
+          items:
+            type: string
+          description: Any errors encountered during processing
+      required:
+        - job_id
+        - status
+        - total_documents
+        - processed_documents
+        - failed_documents

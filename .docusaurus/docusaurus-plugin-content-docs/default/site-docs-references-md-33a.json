@@ -5,7 +5,7 @@
   "source": "@site/docs/references.md",
   "sourceDirName": ".",
   "slug": "/references",
-  "permalink": "/ai-robotic-book/docs/references",
+  "permalink": "/docs/references",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/docs/references.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Troubleshooting",
-    "permalink": "/ai-robotic-book/docs/appendices/troubleshooting"
+    "permalink": "/docs/appendices/troubleshooting"
   },
   "next": {
     "title": "Glossary",
-    "permalink": "/ai-robotic-book/docs/glossary"
+    "permalink": "/docs/glossary"
   }
 }
