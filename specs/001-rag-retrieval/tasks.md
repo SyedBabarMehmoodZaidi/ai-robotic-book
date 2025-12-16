@@ -65,7 +65,7 @@ As an AI engineer, I need to retrieve not just the content but also associated m
 - [X] T027 [P] [US2] Add validation to ensure all required metadata fields are present
 - [X] T028 [P] [US2] Implement mapping between Qdrant payload and metadata model
 - [X] T029 [P] [US2] Add metadata validation to check URL accessibility
-- [ ] T030 [US2] Create unit tests for metadata retrieval in backend/tests/unit/test_retrieval_service.py
+- [X] T030 [US2] Create unit tests for metadata retrieval in backend/tests/unit/test_retrieval_service.py
 - [ ] T031 [US2] Test metadata preservation with various document types
 - [ ] T032 [US2] Test metadata validation and error handling
 
