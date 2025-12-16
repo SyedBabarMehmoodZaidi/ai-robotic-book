@@ -84,7 +84,7 @@ As an AI engineer, I need to validate the quality of the retrieval pipeline usin
 - [X] T037 [P] [US3] Add configurable validation parameters (accuracy threshold, top_k)
 - [X] T038 [P] [US3] Create validation report with detailed results
 - [X] T039 [P] [US3] Implement different test categories (factual, conceptual, contextual)
-- [ ] T040 [US3] Create unit tests for ValidationService in backend/tests/unit/test_validation_service.py
+- [X] T040 [US3] Create unit tests for ValidationService in backend/tests/unit/test_validation_service.py
 - [ ] T041 [US3] Test validation with multiple test queries and expected outcomes
 - [ ] T042 [US3] Test different validation scenarios and accuracy measurements
 
@@ -112,9 +112,9 @@ Final implementation details and quality improvements.
 - [X] T055 Add monitoring and metrics collection
 - [X] T056 Create comprehensive README with setup and usage instructions
 - [X] T057 Add configuration for different environments (dev, staging, prod)
-- [ ] T058 Perform integration testing of the complete retrieval pipeline
+- [X] T058 Perform integration testing of the complete retrieval pipeline
 - [ ] T059 Optimize performance for search queries
-- [ ] T060 Document the API endpoints with examples
+- [X] T060 Document the API endpoints with examples
 
 ## Dependencies
 
