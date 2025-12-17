@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from .search_router import search_router
 from .validation_router import validation_router
 from .health_router import health_router
+from .agent_router import agent_router
 from ..config.settings import settings
 import logging
 
@@ -19,6 +20,7 @@ app = FastAPI(
 app.include_router(search_router)
 app.include_router(validation_router)
 app.include_router(health_router)
+app.include_router(agent_router)
 
 
 # Add middleware for request logging if needed

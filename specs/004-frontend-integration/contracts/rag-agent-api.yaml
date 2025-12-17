@@ -1,0 +1,330 @@
+openapi: 3.0.0
+info:
+  title: RAG Agent API
+  description: API for the RAG-enabled AI Agent that processes queries using book content as context
+  version: 1.0.0
+servers:
+  - url: http://localhost:8000
+    description: Local development server
+  - url: https://api.example.com
+    description: Production server
+
+paths:
+  /api/v1/agent/query:
+    post:
+      summary: Process an agent query
+      description: Submit a query to the RAG agent for processing using book content as context
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AgentQuery'
+      responses:
+        '200':
+          description: Successful query processing
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AgentResponse'
+        '400':
+          description: Bad request - invalid query format
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized - missing or invalid API key
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '503':
+          description: Service unavailable - agent temporarily down
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /api/v1/agent/health:
+    get:
+      summary: Check agent health
+      description: Verify that the RAG agent is healthy and ready to process queries
+      responses:
+        '200':
+          description: Agent is healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+        '503':
+          description: Service unavailable - agent is not healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /api/v1/agent/query/configure:
+    post:
+      summary: Update agent configuration
+      description: Update the configuration settings for the RAG agent
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AgentConfiguration'
+      responses:
+        '200':
+          description: Configuration updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConfigurationResponse'
+        '400':
+          description: Bad request - invalid configuration
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+components:
+  schemas:
+    AgentQuery:
+      type: object
+      required:
+        - query_text
+      properties:
+        query_text:
+          type: string
+          description: The user's question or query text
+          minLength: 1
+          maxLength: 2000
+          example: "What is the main concept discussed in this chapter?"
+        context_text:
+          type: string
+          description: Optional selected text provided as context
+          maxLength: 10000
+          example: "The concept of artificial intelligence has evolved significantly..."
+        query_id:
+          type: string
+          description: Unique identifier for the query (auto-generated if not provided)
+          example: "query-12345-abcde"
+        created_at:
+          type: string
+          format: date-time
+          description: Timestamp when the query was created (auto-generated if not provided)
+          example: "2025-12-17T10:30:00.000Z"
+        user_id:
+          type: string
+          description: Identifier for the user making the query
+          example: "user-67890"
+        query_type:
+          type: string
+          enum: [general, context-specific]
+          description: Type of query
+          default: "general"
+          example: "context-specific"
+      additionalProperties: true
+
+    AgentResponse:
+      type: object
+      required:
+        - response_text
+        - query_id
+        - retrieved_chunks
+        - confidence_score
+      properties:
+        response_text:
+          type: string
+          description: The agent's response to the query
+          minLength: 1
+          maxLength: 10000
+          example: "Based on the provided context, the main concept discussed is..."
+        query_id:
+          type: string
+          description: Reference to the original query
+          example: "query-12345-abcde"
+        retrieved_chunks:
+          type: array
+          description: List of content chunks used (at least one when response is generated)
+          items:
+            $ref: '#/components/schemas/RetrievedChunk'
+        confidence_score:
+          type: number
+          format: float
+          description: Confidence level of the response (0-1)
+          minimum: 0.0
+          maximum: 1.0
+          example: 0.85
+        response_id:
+          type: string
+          description: Unique identifier for the response (auto-generated)
+          example: "response-54321-xyz"
+        created_at:
+          type: string
+          format: date-time
+          description: Timestamp when the response was created (auto-generated)
+          example: "2025-12-17T10:30:15.000Z"
+        sources:
+          type: array
+          description: List of source references
+          items:
+            type: string
+          example: ["book1-chapter3", "book1-section5"]
+        metadata:
+          type: object
+          description: Additional response metadata
+          additionalProperties: true
+          example:
+            processing_time_seconds: 1.234
+            retrieval_threshold: 0.5
+            retrieved_chunk_count: 2
+            query_type: "context-specific"
+
+    RetrievedChunk:
+      type: object
+      required:
+        - content
+        - similarity_score
+        - chunk_id
+        - metadata
+        - position
+      properties:
+        content:
+          type: string
+          description: The actual content text
+          example: "Artificial intelligence (AI) is intelligence demonstrated by machines..."
+        similarity_score:
+          type: number
+          format: float
+          description: Similarity score from retrieval (0-1)
+          minimum: 0.0
+          maximum: 1.0
+          example: 0.87
+        chunk_id:
+          type: string
+          description: Unique identifier for the chunk
+          example: "chunk-abc-123"
+        metadata:
+          type: object
+          description: Additional metadata about the source
+          additionalProperties: true
+          example:
+            source: "book1"
+            page: 45
+            section: "Introduction"
+        position:
+          type: integer
+          description: Position in the original document
+          example: 1
+
+    AgentConfiguration:
+      type: object
+      properties:
+        model_name:
+          type: string
+          description: Name of the AI model to use
+          example: "gpt-4-turbo"
+        temperature:
+          type: number
+          format: float
+          description: Temperature setting for response creativity
+          minimum: 0.0
+          maximum: 1.0
+          example: 0.3
+        max_tokens:
+          type: integer
+          description: Maximum number of tokens in the response
+          example: 1000
+        retrieval_threshold:
+          type: number
+          format: float
+          description: Threshold for content retrieval relevance
+          minimum: 0.0
+          maximum: 1.0
+          example: 0.5
+        context_window:
+          type: integer
+          description: Size of the context window for the agent
+          example: 4000
+
+    HealthResponse:
+      type: object
+      required:
+        - status
+        - message
+        - timestamp
+      properties:
+        status:
+          type: string
+          enum: [healthy, unhealthy]
+          description: Health status of the agent
+          example: "healthy"
+        message:
+          type: string
+          description: Detailed health message
+          example: "RAG agent is operational and ready to process queries"
+        timestamp:
+          type: string
+          format: date-time
+          description: Timestamp of the health check
+          example: "2025-12-17T10:30:00.000Z"
+        services:
+          type: object
+          properties:
+            retrieval:
+              type: object
+              properties:
+                status:
+                  type: string
+                  enum: [healthy, unhealthy]
+                details:
+                  type: string
+            rag_agent:
+              type: object
+              properties:
+                status:
+                  type: string
+                  enum: [healthy, unhealthy]
+                details:
+                  type: string
+
+    ErrorResponse:
+      type: object
+      required:
+        - detail
+      properties:
+        detail:
+          type: string
+          description: Error message
+          example: "Query text cannot be empty after sanitization"
+
+    ConfigurationResponse:
+      type: object
+      required:
+        - status
+        - message
+        - config
+      properties:
+        status:
+          type: string
+          enum: [success, error]
+          example: "success"
+        message:
+          type: string
+          example: "Agent configuration updated successfully"
+        config:
+          $ref: '#/components/schemas/AgentConfiguration'
