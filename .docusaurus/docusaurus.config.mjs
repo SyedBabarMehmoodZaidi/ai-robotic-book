@@ -7,7 +7,7 @@ export default {
   "title": "Physical AI & Humanoid Robotics",
   "tagline": "Hands-on learning of Physical AI and humanoid robotics",
   "favicon": "img/favicon.ico",
-  "url": "https://your-username.github.io",
+  "url": "https://ai-robotic-book.vercel.app",
   "baseUrl": "/",
   "organizationName": "your-username",
   "projectName": "ai-robotic-book",
@@ -27,7 +27,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/your-username/ai-robotic-book/tree/main/"
+          "editUrl": "https://github.com/SyedBabarMehmoodZaidi/ai-robotic-book/tree/main/"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
