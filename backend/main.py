@@ -23,11 +23,11 @@ logger = logging.getLogger(__name__)
 class DocusaurusEmbeddingPipeline:
     def __init__(self):
         # Initialize Cohere client
-        self.cohere_client = cohere.Client(api_key=os.getenv("COHERE_API_KEY"))
+        self.cohere_client = cohere.Client(api_key=os.getenv("2QrWB3DWqq0uCCvhTAgGUTw0u1IV2W2REjP3Q4d0"))
 
         # Initialize Qdrant client
-        qdrant_url = os.getenv("QDRANT_URL", "http://localhost:6333")
-        qdrant_api_key = os.getenv("QDRANT_API_KEY")
+        qdrant_url = os.getenv("QDRANT_URL", "https://415c1e57-4c19-4951-acd7-3336aa42b24f.europe-west3-0.gcp.cloud.qdrant.io:6333")
+        qdrant_api_key = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.bMcgrK4L01ED9tmN6KMVgAflJSGqhyhraQtMYlaaHMA")
 
         if qdrant_api_key:
             self.qdrant_client = QdrantClient(url=qdrant_url, api_key=qdrant_api_key)
@@ -35,7 +35,7 @@ class DocusaurusEmbeddingPipeline:
             self.qdrant_client = QdrantClient(url=qdrant_url)
 
         # Target URL for the Docusaurus site
-        self.target_url = "https://hackathon-physical-ai-humanoid-text-sigma.vercel.app/"
+        self.target_url = "https://ai-robotic-book.vercel.app/"
 
     def get_all_urls(self, base_url: str) -> List[str]:
         """
