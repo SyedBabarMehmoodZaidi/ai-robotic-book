@@ -9,7 +9,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io', // Replace with your site's URL
+  url: 'https://ai-robotic-book.vercel.app', // Replace with your site's URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages, this is usually '/<project-name>/'
   baseUrl: '/',
@@ -39,7 +39,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-username/ai-robotic-book/tree/main/',
+            'https://github.com/SyedBabarMehmoodZaidi/ai-robotic-book/tree/main/',
         },
        
         theme: {
