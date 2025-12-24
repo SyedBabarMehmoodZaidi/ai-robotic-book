@@ -1,7 +1,8 @@
-import type {ReactNode} from 'react';
+import React, { type ReactNode } from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import ChatWidget from '../ChatWidget';
 
 type FeatureItem = {
   title: string;
@@ -15,8 +16,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Even if you are new to AI or robotics, this textbook explains  
-      every concept step-by-step — from basic sensors to advanced robot control.
+        Even if you are new to AI or robotics, this textbook explains
+        every concept step-by-step — from basic sensors to advanced robot control.
       </>
     ),
   },
@@ -25,9 +26,9 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Explore how intelligence moves beyond screens into the real world.  
-        This textbook teaches the foundations of Physical AI, sensors, motion,  
-        and real-world robotic interaction in an easy and structured way.
+        Explore how intelligence moves beyond screens into the real world.
+        This textbook teaches Physical AI, sensors, motion,
+        and real-world robotic interaction.
       </>
     ),
   },
@@ -36,14 +37,14 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Understand how modern humanoid robots perceive, balance, and interact.  
-      This course breaks complex robotics concepts into simple, hands-on chapters..
+        Understand how modern humanoid robots perceive, balance,
+        and interact with humans in real environments.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -59,14 +60,19 @@ function Feature({title, Svg, description}: FeatureItem) {
 
 export default function HomepageFeatures(): ReactNode {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+    <>
+      <section className={styles.features}>
+        <div className="container">
+          <div className="row">
+            {FeatureList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      {/* ✅ CHATBOT */}
+      <ChatWidget />
+    </>
   );
 }
