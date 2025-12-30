@@ -1,11 +1,111 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 4rem 0;
   width: 100%;
 }
 
+.featureCard {
+  background: var(--ifm-background-surface-color);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-xl);
+  height: 100%;
+  transition: all var(--transition-base);
+  border: 1px solid var(--ifm-color-emphasis-100);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+}
+
+[data-theme='dark'] .featureCard {
+  background: var(--ifm-color-emphasis-900);
+  border-color: var(--ifm-color-emphasis-700);
+}
+
+.featureCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--ifm-color-primary) 0%, var(--ifm-color-secondary) 100%);
+  transform: scaleX(0);
+  transition: transform var(--transition-base);
+}
+
+.featureCard:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--ifm-color-primary-lighter);
+}
+
+.featureCard:hover::before {
+  transform: scaleX(1);
+}
+
+.featureCard:hover .featureSvg {
+  transform: scale(1.1) rotate(3deg);
+}
+
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 160px;
+  width: 160px;
+  margin-bottom: var(--spacing-lg);
+  transition: transform var(--transition-base);
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+}
+
+[data-theme='dark'] .featureSvg {
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3));
+}
+
+.featureCard h3 {
+  margin-bottom: var(--spacing-md);
+  color: var(--ifm-text-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: color var(--transition-fast);
+}
+
+.featureCard:hover h3 {
+  color: var(--ifm-color-primary);
+}
+
+.featureCard p {
+  line-height: 1.7;
+  color: var(--ifm-text-color-secondary);
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 996px) {
+  .features {
+    padding: 3rem 0;
+  }
+
+  .featureCard {
+    padding: var(--spacing-lg);
+  }
+
+  .featureSvg {
+    height: 140px;
+    width: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .featureSvg {
+    height: 120px;
+    width: 120px;
+  }
+
+  .featureCard {
+    padding: var(--spacing-md);
+  }
+
+  .featureCard h3 {
+    font-size: 1.25rem;
+  }
 }
